@@ -1,0 +1,2684 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cce2624eeaab44ba7b10bae4206ae1ab, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: UnityEngine.CoreModule:UnityEngine:ScriptableObject
+  botAvatars:
+  - {fileID: 21300000, guid: 49603e64c2e61264f8775a2ce1e0fd58, type: 3}
+  - {fileID: 21300000, guid: 242f8bf96a36d234a828e01b7ab5f2fe, type: 3}
+  - {fileID: 21300000, guid: 8620b0b8441397946ace6a157bee237a, type: 3}
+  - {fileID: 21300000, guid: d4331f1b8b1b35a4d9873743c2c5de76, type: 3}
+  - {fileID: 21300000, guid: 66ea1d97d77eb8d439dcb475ec77cc71, type: 3}
+  - {fileID: 21300000, guid: 4773a7db3f8e76641ad0172da0e6d84a, type: 3}
+  - {fileID: 21300000, guid: d5b7175ba49b3244a95e0b727d6dd72d, type: 3}
+  - {fileID: 21300000, guid: 6200be1cc512bb24fa60ae1bde21a4ca, type: 3}
+  - {fileID: 21300000, guid: 244b1d5d61082494cb627ecc8fcfc692, type: 3}
+  - {fileID: 21300000, guid: 944d129101b07464dbb48ce3cf16107f, type: 3}
+  - {fileID: 21300000, guid: a22033d0f61c79d49800d7254639fa96, type: 3}
+  - {fileID: 21300000, guid: f31497741a4ecbd4fb76e474d659d769, type: 3}
+  - {fileID: 21300000, guid: be2240e8ee371bf4fadb646031405cc1, type: 3}
+  - {fileID: 21300000, guid: e19b6ff7dbd96d34b841115bc2f853ae, type: 3}
+  - {fileID: 21300000, guid: 0f5e2a7e2009bd344a624887f3d69f82, type: 3}
+  - {fileID: 21300000, guid: b3b44116f2e5ffa49aec4b86dd9cb69d, type: 3}
+  - {fileID: 21300000, guid: 46c9224f65332be47a9c6ccae592d1a6, type: 3}
+  - {fileID: 21300000, guid: 01e7bbe3416c5b44f9ed38952b105618, type: 3}
+  - {fileID: 21300000, guid: b72f366255867114ab84b17509bf3cb8, type: 3}
+  - {fileID: 21300000, guid: efdc66820172710448b8b011270061ab, type: 3}
+  customAvatars:
+  - {fileID: 21300000, guid: 80a3a45b2638e0d49961a051aaf9207e, type: 3}
+  - {fileID: 21300000, guid: 2375b3b69868859408c7afc2675e4f31, type: 3}
+  - {fileID: 21300000, guid: 920f8fd2b2a349e48aadf707e227190c, type: 3}
+  - {fileID: 21300000, guid: 04be4b1421ac810418207a59d6b0771b, type: 3}
+  - {fileID: 21300000, guid: eeb80a26f5fd1f44db35a265a4c1f3d8, type: 3}
+  - {fileID: 21300000, guid: ea60807fe5396f743ab909bd51cb5084, type: 3}
+  - {fileID: 21300000, guid: 7cf052acdd95f9c41960650eae2468b8, type: 3}
+  - {fileID: 21300000, guid: 15cfabc09ed130f4f8fecaece8518034, type: 3}
+  - {fileID: 21300000, guid: 103e9aab8bcc3894697a1ab009e5a96b, type: 3}
+  - {fileID: 21300000, guid: fb163f5abb4c6124591ad941c57f6f71, type: 3}
+  - {fileID: 21300000, guid: 75282a5d4f34a0b458b78f8c5aa74be7, type: 3}
+  - {fileID: 21300000, guid: 85b3f74ec0ca3bd4fb5e73c9d0119f99, type: 3}
+  - {fileID: 21300000, guid: 97f15508bd8ca6f4296d32d30344669c, type: 3}
+  - {fileID: 21300000, guid: 5331c568d19b03842a1e7957beb28194, type: 3}
+  - {fileID: 21300000, guid: 43b4d0dc986b602458bfc6a13e90efc0, type: 3}
+  - {fileID: 21300000, guid: d54687a52de9cf94db96bec474fe2610, type: 3}
+  - {fileID: 21300000, guid: 68edae1b421071d4688207f5fbe8ce8e, type: 3}
+  - {fileID: 21300000, guid: 3152ec22ff2a92244acdae849aa2e481, type: 3}
+  - {fileID: 21300000, guid: 5a98a84d39b16694aa569fadc3657952, type: 3}
+  - {fileID: 21300000, guid: 950eb0a55c2b6b84bbde361ddab994c7, type: 3}
+  - {fileID: 21300000, guid: 20a272e574c4c20489055df99496c0cb, type: 3}
+  - {fileID: 21300000, guid: f5b71cb2e4645b24ba791000ec13cafe, type: 3}
+  - {fileID: 21300000, guid: 6d101d52811686642a5b01cf06a7cc92, type: 3}
+  - {fileID: 21300000, guid: b1f60ba5f950a834ebab4900f469e03c, type: 3}
+  - {fileID: 21300000, guid: 6cb49610e1545ab4aacf7b36040c2542, type: 3}
+  - {fileID: 21300000, guid: 9470a6f69f96c8340850a87d7942a4c3, type: 3}
+  - {fileID: 21300000, guid: 8c7829e5eb9fbbb418f8a399cb0e29a8, type: 3}
+  - {fileID: 21300000, guid: 3c6ba6dc9b407bd4abda195215e76345, type: 3}
+  - {fileID: 21300000, guid: d6f12fcb36471b04a83667e9e16ed2c3, type: 3}
+  - {fileID: 21300000, guid: b9126eb60378d5c43aa6e9fd898d3549, type: 3}
+  - {fileID: 21300000, guid: db3348b206c56b24abf8f28e181635c7, type: 3}
+  - {fileID: 21300000, guid: 02261a1680aa8ac439dbb4d35d66f79b, type: 3}
+  - {fileID: 21300000, guid: 14153ae6c443b7048a021fbfb2a8b527, type: 3}
+  - {fileID: 21300000, guid: 6336432c9fe23c64bba46c5903f62015, type: 3}
+  - {fileID: 21300000, guid: 02499f057d6fdd24691a82027b637f04, type: 3}
+  - {fileID: 21300000, guid: f11b633d707724845b86446bfc5317d3, type: 3}
+  - {fileID: 21300000, guid: 36d52cc7b44ecb04e9358952e1e171af, type: 3}
+  - {fileID: 21300000, guid: 3965e5407075ce047af21ddf6bc8f7b9, type: 3}
+  - {fileID: 21300000, guid: 7724de88dbb3a7c46906ec32d4b11470, type: 3}
+  - {fileID: 21300000, guid: 9d4bd5a8c750d2f44b39aca722d996b0, type: 3}
+  - {fileID: 21300000, guid: 826350aa68e86aa489fc81366fc37daf, type: 3}
+  - {fileID: 21300000, guid: 4c1fae9dd87819e4d9dc6f4d473d643e, type: 3}
+  - {fileID: 21300000, guid: 9dc19cb7fd707be40b0838513cdf13c2, type: 3}
+  - {fileID: 21300000, guid: 5f3fef4b558406449bd5c14c41b64e6a, type: 3}
+  - {fileID: 21300000, guid: 6ba8a9f12c7ff6842b2edd9261ed15aa, type: 3}
+  - {fileID: 21300000, guid: daadb30580c2fb645bf2af12edf1c702, type: 3}
+  - {fileID: 21300000, guid: 930cb4e1f80b01840861f1e1b0f52756, type: 3}
+  - {fileID: 21300000, guid: c4a9cafff178d7b42b39fefc1134acee, type: 3}
+  - {fileID: 21300000, guid: 4ed2c59bdb2a0e549b6f2a47aceb53cc, type: 3}
+  - {fileID: 21300000, guid: a0729bc68244e1d48b3774454d9898ab, type: 3}
+  - {fileID: 21300000, guid: 9ee54ab44dc052043b8b00e2dbe90ef3, type: 3}
+  - {fileID: 21300000, guid: d7b3bd369ed08f04ca88a5c8f255f99f, type: 3}
+  - {fileID: 21300000, guid: 261996908cae1f0459882f12d08db2a3, type: 3}
+  - {fileID: 21300000, guid: c7fa5f7c2eb0a5c45bd61b60b0f87c51, type: 3}
+  - {fileID: 21300000, guid: d897e240efbe93c4cae3ea9d701f4868, type: 3}
+  customAvatarFrames:
+  - {fileID: 21300000, guid: dcc3f2ced9a17bd4b932fe50a73cf4d6, type: 3}
+  - {fileID: 21300000, guid: 44d6f9de631048843af8c1fda4f6d35c, type: 3}
+  - {fileID: 21300000, guid: 36db1ad9578cbe241a88066171cc43c6, type: 3}
+  - {fileID: 21300000, guid: 1029db21d04891c46b1e0be0098121be, type: 3}
+  - {fileID: 21300000, guid: 0111d7d12c7b4e44fb3dcaa876fc78c8, type: 3}
+  - {fileID: 21300000, guid: c51463f87624e2742b743ac6e39e3657, type: 3}
+  - {fileID: 21300000, guid: ce3b87126d4efac458032ded225cf08c, type: 3}
+  - {fileID: 21300000, guid: cf9be43f2f77176409beea82a4dab30b, type: 3}
+  - {fileID: 21300000, guid: 7229f8e1f20703842b78165748630b7a, type: 3}
+  - {fileID: 21300000, guid: 25d367d6c5fab284f917f65c94dcb66f, type: 3}
+  - {fileID: 21300000, guid: 9cd7233a71fc2e744ba2b470037e8f1c, type: 3}
+  - {fileID: 21300000, guid: 56a9dfbb39d7b204e8c7b265847d606b, type: 3}
+  - {fileID: 21300000, guid: 1975e0888c323844097b29e45e888dec, type: 3}
+  - {fileID: 21300000, guid: aa24f03ab0690114fb52aa25478f8846, type: 3}
+  - {fileID: 21300000, guid: 99cf22414a414ae4db488b5a5be97766, type: 3}
+  - {fileID: 21300000, guid: 8751bc0e2e802274ea81b596e9d30f93, type: 3}
+  - {fileID: 21300000, guid: 89381f3355ce9b84384900057e2469b8, type: 3}
+  - {fileID: 21300000, guid: 2c8d3ceb13a53d9479117ad86123dfe4, type: 3}
+  - {fileID: 21300000, guid: 566508e52f78d874abe2e73ff82f350a, type: 3}
+  - {fileID: 21300000, guid: 4e2d1a4525d64db40b7e3f72443191a7, type: 3}
+  - {fileID: 21300000, guid: f7f48cefe27eec84ca6e9245e191b646, type: 3}
+  - {fileID: 21300000, guid: aac841e0cebb9264caac4a9ee02dfda8, type: 3}
+  - {fileID: 21300000, guid: d2fc485655bccd243af7b701e4f58679, type: 3}
+  - {fileID: 21300000, guid: 0c3aa3e643b02f3478ee0342eb7a74c2, type: 3}
+  - {fileID: 21300000, guid: 32396684a3fe9ab41847974d26d08dd2, type: 3}
+  - {fileID: 21300000, guid: 59d526d933ce2d74fa3c78cafd52a5d3, type: 3}
+  - {fileID: 21300000, guid: 10e9951665101c24f87b84f7df66ac14, type: 3}
+  - {fileID: 21300000, guid: 070e351ade616a8488bf1eb02cae14e1, type: 3}
+  - {fileID: 21300000, guid: 8bb6e095cd0dd664b94703d8aab86863, type: 3}
+  - {fileID: 21300000, guid: 47f6170788ae3ff439c1b25d052d1b5c, type: 3}
+  - {fileID: 21300000, guid: c8f1b31ee1566c144a545d3bf93cd166, type: 3}
+  - {fileID: 21300000, guid: 4027c90bf67ac7a42afd5d78f24dfcfa, type: 3}
+  - {fileID: 21300000, guid: 896445f53588d3c4d8af2b19c77f8a4f, type: 3}
+  - {fileID: 21300000, guid: 8a1ceaf63ad4e544faad65f2a5914bbd, type: 3}
+  - {fileID: 21300000, guid: 35ad2d989f08db447ab2ae48c54771c8, type: 3}
+  - {fileID: 21300000, guid: 80658218686db7447b42df09fb5ae62e, type: 3}
+  - {fileID: 21300000, guid: 95187249adbd5e2418cd4c964a302af6, type: 3}
+  - {fileID: 21300000, guid: 42804e83dd8576c4f85017883b536228, type: 3}
+  - {fileID: 21300000, guid: dccbc45c8696cee4bbf8af0ed58db254, type: 3}
+  - {fileID: 21300000, guid: a6b0aa5a3384eae4b9d868f029ec8d80, type: 3}
+  - {fileID: 21300000, guid: 4f414ed2535b64c45bbf6f448cd7da2d, type: 3}
+  - {fileID: 21300000, guid: e7c57022de31de249bc0ce831b81fa0e, type: 3}
+  - {fileID: 21300000, guid: 252dd65bb49c9d44e940e903118af3be, type: 3}
+  - {fileID: 21300000, guid: 9c97fc6658a1c9a478a9a2340c778ecf, type: 3}
+  - {fileID: 21300000, guid: 54d8fe8e133b5b84090d9876cd9b5661, type: 3}
+  - {fileID: 21300000, guid: bec9c0d301a279543b2a89879e02dcb8, type: 3}
+  - {fileID: 21300000, guid: f0c7fc40170c52643a4cc8f3fdd6d88d, type: 3}
+  - {fileID: 21300000, guid: 098f6d3cc0e688f478352cda629801e0, type: 3}
+  - {fileID: 21300000, guid: 379ccbdc8f271a54088dbc0684a3a977, type: 3}
+  - {fileID: 21300000, guid: 08d381b4616c0bb46b5ef0edebacc73d, type: 3}
+  - {fileID: 21300000, guid: 3f0473cfa14fa214fbc7307baf8b869d, type: 3}
+  - {fileID: 21300000, guid: 4a153b08d2b84814f990ac5b93af6a2c, type: 3}
+  - {fileID: 21300000, guid: 4865099969388fa4caa67ce1f5afe096, type: 3}
+  - {fileID: 21300000, guid: 292af482c6bf35f4789eee61af572cf8, type: 3}
+  - {fileID: 21300000, guid: 59b5dd59bd2af1346af3f8ee63835d0f, type: 3}
+  - {fileID: 21300000, guid: 1864da66101669845aaab7930d95d338, type: 3}
+  - {fileID: 21300000, guid: 6c3123f802b1e3342b6e321c5d34de7a, type: 3}
+  - {fileID: 21300000, guid: dda47ffb8756c5f4a9c87bfe5fca8c18, type: 3}
+  - {fileID: 21300000, guid: b4a6c3c2b35138a47a2ddc7374581b1b, type: 3}
+  - {fileID: 21300000, guid: c00ead2e2508b354c82a4aa7b9843f37, type: 3}
+  - {fileID: 21300000, guid: 14cb27edd0552474cad5c1be1fdc1162, type: 3}
+  - {fileID: 21300000, guid: 79f4a0d92ab514d42ba1ab8242d2024b, type: 3}
+  - {fileID: 21300000, guid: 6e0db5073549559428963fc22a19156b, type: 3}
+  - {fileID: 21300000, guid: b56e157420bede64e8f5c34371f47607, type: 3}
+  customDices:
+  - id: 0
+    mName: Default
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 2444148772950851859, guid: f5f8caa6de3fc4362b6b1f121df40c35, type: 3}
+    mPiecesCount: 6
+    mPieces: 6
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 4329407632164072968, guid: f5f8caa6de3fc4362b6b1f121df40c35,
+        type: 3}
+      mAnimSprite: {fileID: -7702535844877958233, guid: d63862ed7ce7d45db8cc9d91b1fe834f,
+        type: 3}
+      mValue: 1
+      Probability: 70
+    - mValueSprite: {fileID: -687686590730729439, guid: f5f8caa6de3fc4362b6b1f121df40c35,
+        type: 3}
+      mAnimSprite: {fileID: 4542362637977729854, guid: d63862ed7ce7d45db8cc9d91b1fe834f,
+        type: 3}
+      mValue: 2
+      Probability: 75
+    - mValueSprite: {fileID: -2486526224704631793, guid: f5f8caa6de3fc4362b6b1f121df40c35,
+        type: 3}
+      mAnimSprite: {fileID: 6292252190415028710, guid: d63862ed7ce7d45db8cc9d91b1fe834f,
+        type: 3}
+      mValue: 3
+      Probability: 65
+    - mValueSprite: {fileID: 8266815305156663548, guid: f5f8caa6de3fc4362b6b1f121df40c35,
+        type: 3}
+      mAnimSprite: {fileID: 6929904712262010054, guid: d63862ed7ce7d45db8cc9d91b1fe834f,
+        type: 3}
+      mValue: 4
+      Probability: 60
+    - mValueSprite: {fileID: -1492594608601113626, guid: f5f8caa6de3fc4362b6b1f121df40c35,
+        type: 3}
+      mAnimSprite: {fileID: 4555100528742088155, guid: d63862ed7ce7d45db8cc9d91b1fe834f,
+        type: 3}
+      mValue: 5
+      Probability: 55
+    - mValueSprite: {fileID: 5126441972914278657, guid: f5f8caa6de3fc4362b6b1f121df40c35,
+        type: 3}
+      mAnimSprite: {fileID: -5090610877321038023, guid: d63862ed7ce7d45db8cc9d91b1fe834f,
+        type: 3}
+      mValue: 6
+      Probability: 60
+  - id: 1
+    mName: Bee
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: fc6b3df276ba74b1a93cb1379b1cd57c, type: 3}
+    mPiecesCount: 0
+    mPieces: 9
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 7160429211405778527, guid: 195ae8128b5374a73a080563bf0d49cd,
+        type: 3}
+      mAnimSprite: {fileID: 6443559787108727987, guid: 62337eb6beeeb41deb602ef96c7c064c,
+        type: 3}
+      mValue: 1
+      Probability: 80
+    - mValueSprite: {fileID: 7057801135558962131, guid: 195ae8128b5374a73a080563bf0d49cd,
+        type: 3}
+      mAnimSprite: {fileID: 5203370829756461510, guid: 62337eb6beeeb41deb602ef96c7c064c,
+        type: 3}
+      mValue: 2
+      Probability: 70
+    - mValueSprite: {fileID: -709529425693167831, guid: 195ae8128b5374a73a080563bf0d49cd,
+        type: 3}
+      mAnimSprite: {fileID: -2374567788181924148, guid: 62337eb6beeeb41deb602ef96c7c064c,
+        type: 3}
+      mValue: 3
+      Probability: 80
+    - mValueSprite: {fileID: 6306999314160741799, guid: 195ae8128b5374a73a080563bf0d49cd,
+        type: 3}
+      mAnimSprite: {fileID: 5992323433365659692, guid: 62337eb6beeeb41deb602ef96c7c064c,
+        type: 3}
+      mValue: 4
+      Probability: 70
+    - mValueSprite: {fileID: 2428041468874453082, guid: 195ae8128b5374a73a080563bf0d49cd,
+        type: 3}
+      mAnimSprite: {fileID: -98880948294790926, guid: 62337eb6beeeb41deb602ef96c7c064c,
+        type: 3}
+      mValue: 5
+      Probability: 60
+    - mValueSprite: {fileID: -2249631188897383861, guid: 195ae8128b5374a73a080563bf0d49cd,
+        type: 3}
+      mAnimSprite: {fileID: 2807903715162228348, guid: 62337eb6beeeb41deb602ef96c7c064c,
+        type: 3}
+      mValue: 6
+      Probability: 28
+  - id: 2
+    mName: Card
+    mType: 1
+    mBg: {fileID: 21300000, guid: e6eea4f7cbb9f46f79c0fe06180fa5b3, type: 3}
+    mIcon: {fileID: 21300000, guid: 5231c9f227d59452b8e2ed934ffc1f53, type: 3}
+    mPiecesCount: 0
+    mPieces: 12
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 7160429211405778527, guid: fb7786d0dbddf4467a0a8c030b81d00b,
+        type: 3}
+      mAnimSprite: {fileID: 6443559787108727987, guid: d4b5cd8a392d643819862c8c6659569c,
+        type: 3}
+      mValue: 1
+      Probability: 80
+    - mValueSprite: {fileID: 7057801135558962131, guid: fb7786d0dbddf4467a0a8c030b81d00b,
+        type: 3}
+      mAnimSprite: {fileID: 5203370829756461510, guid: d4b5cd8a392d643819862c8c6659569c,
+        type: 3}
+      mValue: 2
+      Probability: 70
+    - mValueSprite: {fileID: -709529425693167831, guid: fb7786d0dbddf4467a0a8c030b81d00b,
+        type: 3}
+      mAnimSprite: {fileID: -2374567788181924148, guid: d4b5cd8a392d643819862c8c6659569c,
+        type: 3}
+      mValue: 3
+      Probability: 75
+    - mValueSprite: {fileID: 6306999314160741799, guid: fb7786d0dbddf4467a0a8c030b81d00b,
+        type: 3}
+      mAnimSprite: {fileID: 5992323433365659692, guid: d4b5cd8a392d643819862c8c6659569c,
+        type: 3}
+      mValue: 4
+      Probability: 60
+    - mValueSprite: {fileID: 2428041468874453082, guid: fb7786d0dbddf4467a0a8c030b81d00b,
+        type: 3}
+      mAnimSprite: {fileID: -98880948294790926, guid: d4b5cd8a392d643819862c8c6659569c,
+        type: 3}
+      mValue: 5
+      Probability: 70
+    - mValueSprite: {fileID: -2249631188897383861, guid: fb7786d0dbddf4467a0a8c030b81d00b,
+        type: 3}
+      mAnimSprite: {fileID: 2807903715162228348, guid: d4b5cd8a392d643819862c8c6659569c,
+        type: 3}
+      mValue: 6
+      Probability: 30
+  - id: 3
+    mName: CricketBall
+    mType: 3
+    mBg: {fileID: 21300000, guid: 84063999b9e1741d099c1d8f7bbc0f7a, type: 3}
+    mIcon: {fileID: 21300000, guid: 64deb6e633d9e4e17ab9e1708de62379, type: 3}
+    mPiecesCount: 0
+    mPieces: 13
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 7160429211405778527, guid: fb7786d0dbddf4467a0a8c030b81d00b,
+        type: 3}
+      mAnimSprite: {fileID: 6443559787108727987, guid: d4b5cd8a392d643819862c8c6659569c,
+        type: 3}
+      mValue: 1
+      Probability: 81
+    - mValueSprite: {fileID: 7057801135558962131, guid: fb7786d0dbddf4467a0a8c030b81d00b,
+        type: 3}
+      mAnimSprite: {fileID: 5203370829756461510, guid: d4b5cd8a392d643819862c8c6659569c,
+        type: 3}
+      mValue: 2
+      Probability: 72
+    - mValueSprite: {fileID: -709529425693167831, guid: fb7786d0dbddf4467a0a8c030b81d00b,
+        type: 3}
+      mAnimSprite: {fileID: -2374567788181924148, guid: d4b5cd8a392d643819862c8c6659569c,
+        type: 3}
+      mValue: 3
+      Probability: 70
+    - mValueSprite: {fileID: 6306999314160741799, guid: fb7786d0dbddf4467a0a8c030b81d00b,
+        type: 3}
+      mAnimSprite: {fileID: 5992323433365659692, guid: d4b5cd8a392d643819862c8c6659569c,
+        type: 3}
+      mValue: 4
+      Probability: 64
+    - mValueSprite: {fileID: 2428041468874453082, guid: fb7786d0dbddf4467a0a8c030b81d00b,
+        type: 3}
+      mAnimSprite: {fileID: -98880948294790926, guid: d4b5cd8a392d643819862c8c6659569c,
+        type: 3}
+      mValue: 5
+      Probability: 69
+    - mValueSprite: {fileID: -2249631188897383861, guid: fb7786d0dbddf4467a0a8c030b81d00b,
+        type: 3}
+      mAnimSprite: {fileID: 2807903715162228348, guid: d4b5cd8a392d643819862c8c6659569c,
+        type: 3}
+      mValue: 6
+      Probability: 38
+  - id: 4
+    mName: Diamond
+    mType: 2
+    mBg: {fileID: 21300000, guid: 489cc5f42d3e947f881bcacbf56120d0, type: 3}
+    mIcon: {fileID: 21300000, guid: 0ecfda6eba5c94d82b2d9fb93accb889, type: 3}
+    mPiecesCount: 0
+    mPieces: 14
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 7160429211405778527, guid: ac20620858c764bb784d815d0763ee1b,
+        type: 3}
+      mAnimSprite: {fileID: 6443559787108727987, guid: 528e30feb01474d7083e16fee57ee335,
+        type: 3}
+      mValue: 1
+      Probability: 84
+    - mValueSprite: {fileID: 7057801135558962131, guid: ac20620858c764bb784d815d0763ee1b,
+        type: 3}
+      mAnimSprite: {fileID: 5203370829756461510, guid: 528e30feb01474d7083e16fee57ee335,
+        type: 3}
+      mValue: 2
+      Probability: 80
+    - mValueSprite: {fileID: -709529425693167831, guid: ac20620858c764bb784d815d0763ee1b,
+        type: 3}
+      mAnimSprite: {fileID: -2374567788181924148, guid: 528e30feb01474d7083e16fee57ee335,
+        type: 3}
+      mValue: 3
+      Probability: 70
+    - mValueSprite: {fileID: 6306999314160741799, guid: ac20620858c764bb784d815d0763ee1b,
+        type: 3}
+      mAnimSprite: {fileID: 5992323433365659692, guid: 528e30feb01474d7083e16fee57ee335,
+        type: 3}
+      mValue: 4
+      Probability: 76
+    - mValueSprite: {fileID: 2428041468874453082, guid: ac20620858c764bb784d815d0763ee1b,
+        type: 3}
+      mAnimSprite: {fileID: -98880948294790926, guid: 528e30feb01474d7083e16fee57ee335,
+        type: 3}
+      mValue: 5
+      Probability: 77
+    - mValueSprite: {fileID: -2249631188897383861, guid: ac20620858c764bb784d815d0763ee1b,
+        type: 3}
+      mAnimSprite: {fileID: 2807903715162228348, guid: 528e30feb01474d7083e16fee57ee335,
+        type: 3}
+      mValue: 6
+      Probability: 42
+  - id: 5
+    mName: FootBall
+    mType: 3
+    mBg: {fileID: 21300000, guid: 84063999b9e1741d099c1d8f7bbc0f7a, type: 3}
+    mIcon: {fileID: 21300000, guid: 4061cc404b9bd472bac294d30dbbaadb, type: 3}
+    mPiecesCount: 0
+    mPieces: 12
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 7160429211405778527, guid: 2e9593809a7af419a96bc424333561c3,
+        type: 3}
+      mAnimSprite: {fileID: 6443559787108727987, guid: b6203fb2512aa4276a588419877cd7d8,
+        type: 3}
+      mValue: 1
+      Probability: 64
+    - mValueSprite: {fileID: 7057801135558962131, guid: 2e9593809a7af419a96bc424333561c3,
+        type: 3}
+      mAnimSprite: {fileID: 5203370829756461510, guid: b6203fb2512aa4276a588419877cd7d8,
+        type: 3}
+      mValue: 2
+      Probability: 67
+    - mValueSprite: {fileID: -709529425693167831, guid: 2e9593809a7af419a96bc424333561c3,
+        type: 3}
+      mAnimSprite: {fileID: -2374567788181924148, guid: b6203fb2512aa4276a588419877cd7d8,
+        type: 3}
+      mValue: 3
+      Probability: 76
+    - mValueSprite: {fileID: 6306999314160741799, guid: 2e9593809a7af419a96bc424333561c3,
+        type: 3}
+      mAnimSprite: {fileID: 5992323433365659692, guid: b6203fb2512aa4276a588419877cd7d8,
+        type: 3}
+      mValue: 4
+      Probability: 76
+    - mValueSprite: {fileID: 2428041468874453082, guid: 2e9593809a7af419a96bc424333561c3,
+        type: 3}
+      mAnimSprite: {fileID: -98880948294790926, guid: b6203fb2512aa4276a588419877cd7d8,
+        type: 3}
+      mValue: 5
+      Probability: 72
+    - mValueSprite: {fileID: -2249631188897383861, guid: 2e9593809a7af419a96bc424333561c3,
+        type: 3}
+      mAnimSprite: {fileID: 2807903715162228348, guid: b6203fb2512aa4276a588419877cd7d8,
+        type: 3}
+      mValue: 6
+      Probability: 36
+  - id: 6
+    mName: Heart
+    mType: 3
+    mBg: {fileID: 21300000, guid: 84063999b9e1741d099c1d8f7bbc0f7a, type: 3}
+    mIcon: {fileID: 21300000, guid: 607a129483e824921b7bb756ba66bd30, type: 3}
+    mPiecesCount: 0
+    mPieces: 13
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 7160429211405778527, guid: cd2ab47ddfac64189a73898de253c23b,
+        type: 3}
+      mAnimSprite: {fileID: 6443559787108727987, guid: 084c53bbd25f1462abaa6b465f608a41,
+        type: 3}
+      mValue: 1
+      Probability: 30
+    - mValueSprite: {fileID: 7057801135558962131, guid: cd2ab47ddfac64189a73898de253c23b,
+        type: 3}
+      mAnimSprite: {fileID: 5203370829756461510, guid: 084c53bbd25f1462abaa6b465f608a41,
+        type: 3}
+      mValue: 2
+      Probability: 35
+    - mValueSprite: {fileID: -709529425693167831, guid: cd2ab47ddfac64189a73898de253c23b,
+        type: 3}
+      mAnimSprite: {fileID: -2374567788181924148, guid: 084c53bbd25f1462abaa6b465f608a41,
+        type: 3}
+      mValue: 3
+      Probability: 20
+    - mValueSprite: {fileID: 6306999314160741799, guid: cd2ab47ddfac64189a73898de253c23b,
+        type: 3}
+      mAnimSprite: {fileID: 5992323433365659692, guid: 084c53bbd25f1462abaa6b465f608a41,
+        type: 3}
+      mValue: 4
+      Probability: 44
+    - mValueSprite: {fileID: 2428041468874453082, guid: cd2ab47ddfac64189a73898de253c23b,
+        type: 3}
+      mAnimSprite: {fileID: -98880948294790926, guid: 084c53bbd25f1462abaa6b465f608a41,
+        type: 3}
+      mValue: 5
+      Probability: 40
+    - mValueSprite: {fileID: -2249631188897383861, guid: cd2ab47ddfac64189a73898de253c23b,
+        type: 3}
+      mAnimSprite: {fileID: 2807903715162228348, guid: 084c53bbd25f1462abaa6b465f608a41,
+        type: 3}
+      mValue: 6
+      Probability: 35
+  - id: 31
+    mName: King
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: 011dbc3de319f45bf89c2ec2e1337ded, type: 3}
+    mPiecesCount: 8
+    mPieces: 16
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 7160429211405778527, guid: 5b2cde9b3f38346208b45ba1732771cb,
+        type: 3}
+      mAnimSprite: {fileID: 6443559787108727987, guid: d913b730b413043068d1b86ba8d823f0,
+        type: 3}
+      mValue: 1
+      Probability: 79
+    - mValueSprite: {fileID: 7057801135558962131, guid: 5b2cde9b3f38346208b45ba1732771cb,
+        type: 3}
+      mAnimSprite: {fileID: 5203370829756461510, guid: d913b730b413043068d1b86ba8d823f0,
+        type: 3}
+      mValue: 2
+      Probability: 74
+    - mValueSprite: {fileID: -709529425693167831, guid: 5b2cde9b3f38346208b45ba1732771cb,
+        type: 3}
+      mAnimSprite: {fileID: -2374567788181924148, guid: d913b730b413043068d1b86ba8d823f0,
+        type: 3}
+      mValue: 3
+      Probability: 69
+    - mValueSprite: {fileID: 6306999314160741799, guid: 5b2cde9b3f38346208b45ba1732771cb,
+        type: 3}
+      mAnimSprite: {fileID: 5992323433365659692, guid: d913b730b413043068d1b86ba8d823f0,
+        type: 3}
+      mValue: 4
+      Probability: 51
+    - mValueSprite: {fileID: 2428041468874453082, guid: 5b2cde9b3f38346208b45ba1732771cb,
+        type: 3}
+      mAnimSprite: {fileID: -98880948294790926, guid: d913b730b413043068d1b86ba8d823f0,
+        type: 3}
+      mValue: 5
+      Probability: 45
+    - mValueSprite: {fileID: -2249631188897383861, guid: 5b2cde9b3f38346208b45ba1732771cb,
+        type: 3}
+      mAnimSprite: {fileID: 2807903715162228348, guid: d913b730b413043068d1b86ba8d823f0,
+        type: 3}
+      mValue: 6
+      Probability: 39
+  - id: 30
+    mName: Moon
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: 641e36f5269a549b4afd332f947e9a8b, type: 3}
+    mPiecesCount: 0
+    mPieces: 15
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 7160429211405778527, guid: a6f00bb236b0d46ba88074f61f74dd2d,
+        type: 3}
+      mAnimSprite: {fileID: 6443559787108727987, guid: c15e02d3e487f4b8580b0e362d8e2ea6,
+        type: 3}
+      mValue: 1
+      Probability: 45
+    - mValueSprite: {fileID: 7057801135558962131, guid: a6f00bb236b0d46ba88074f61f74dd2d,
+        type: 3}
+      mAnimSprite: {fileID: 5203370829756461510, guid: c15e02d3e487f4b8580b0e362d8e2ea6,
+        type: 3}
+      mValue: 2
+      Probability: 25
+    - mValueSprite: {fileID: -709529425693167831, guid: a6f00bb236b0d46ba88074f61f74dd2d,
+        type: 3}
+      mAnimSprite: {fileID: -2374567788181924148, guid: c15e02d3e487f4b8580b0e362d8e2ea6,
+        type: 3}
+      mValue: 3
+      Probability: 40
+    - mValueSprite: {fileID: 6306999314160741799, guid: a6f00bb236b0d46ba88074f61f74dd2d,
+        type: 3}
+      mAnimSprite: {fileID: 5992323433365659692, guid: c15e02d3e487f4b8580b0e362d8e2ea6,
+        type: 3}
+      mValue: 4
+      Probability: 35
+    - mValueSprite: {fileID: 2428041468874453082, guid: a6f00bb236b0d46ba88074f61f74dd2d,
+        type: 3}
+      mAnimSprite: {fileID: -98880948294790926, guid: c15e02d3e487f4b8580b0e362d8e2ea6,
+        type: 3}
+      mValue: 5
+      Probability: 30
+    - mValueSprite: {fileID: -2249631188897383861, guid: a6f00bb236b0d46ba88074f61f74dd2d,
+        type: 3}
+      mAnimSprite: {fileID: 2807903715162228348, guid: c15e02d3e487f4b8580b0e362d8e2ea6,
+        type: 3}
+      mValue: 6
+      Probability: 38
+  - id: 32
+    mName: TennisBall
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: 4900f67c0d3764020b27508e36d101f4, type: 3}
+    mPiecesCount: 4
+    mPieces: 14
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 7160429211405778527, guid: 4201a0737ec5f4cf29e80c72f3fcc587,
+        type: 3}
+      mAnimSprite: {fileID: 6443559787108727987, guid: 0fa5d6637f3884d41ba33d68bdbde235,
+        type: 3}
+      mValue: 1
+      Probability: 69
+    - mValueSprite: {fileID: 7057801135558962131, guid: 4201a0737ec5f4cf29e80c72f3fcc587,
+        type: 3}
+      mAnimSprite: {fileID: 5203370829756461510, guid: 0fa5d6637f3884d41ba33d68bdbde235,
+        type: 3}
+      mValue: 2
+      Probability: 70
+    - mValueSprite: {fileID: -709529425693167831, guid: 4201a0737ec5f4cf29e80c72f3fcc587,
+        type: 3}
+      mAnimSprite: {fileID: -2374567788181924148, guid: 0fa5d6637f3884d41ba33d68bdbde235,
+        type: 3}
+      mValue: 3
+      Probability: 65
+    - mValueSprite: {fileID: 6306999314160741799, guid: 4201a0737ec5f4cf29e80c72f3fcc587,
+        type: 3}
+      mAnimSprite: {fileID: 5992323433365659692, guid: 0fa5d6637f3884d41ba33d68bdbde235,
+        type: 3}
+      mValue: 4
+      Probability: 55
+    - mValueSprite: {fileID: 2428041468874453082, guid: 4201a0737ec5f4cf29e80c72f3fcc587,
+        type: 3}
+      mAnimSprite: {fileID: -98880948294790926, guid: 0fa5d6637f3884d41ba33d68bdbde235,
+        type: 3}
+      mValue: 5
+      Probability: 36
+    - mValueSprite: {fileID: -2249631188897383861, guid: 4201a0737ec5f4cf29e80c72f3fcc587,
+        type: 3}
+      mAnimSprite: {fileID: 2807903715162228348, guid: 0fa5d6637f3884d41ba33d68bdbde235,
+        type: 3}
+      mValue: 6
+      Probability: 32
+  - id: 7
+    mName: Zombie
+    mType: 2
+    mBg: {fileID: 21300000, guid: 489cc5f42d3e947f881bcacbf56120d0, type: 3}
+    mIcon: {fileID: 21300000, guid: 842eccca281d2471093f03ce77a4abbc, type: 3}
+    mPiecesCount: 0
+    mPieces: 13
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 7160429211405778527, guid: a9e688d14493946c59d56a202af0da1a,
+        type: 3}
+      mAnimSprite: {fileID: 6443559787108727987, guid: ce119c039eafb4f978ff39bef3e1182c,
+        type: 3}
+      mValue: 1
+      Probability: 77
+    - mValueSprite: {fileID: 7057801135558962131, guid: a9e688d14493946c59d56a202af0da1a,
+        type: 3}
+      mAnimSprite: {fileID: 5203370829756461510, guid: ce119c039eafb4f978ff39bef3e1182c,
+        type: 3}
+      mValue: 2
+      Probability: 74
+    - mValueSprite: {fileID: -709529425693167831, guid: a9e688d14493946c59d56a202af0da1a,
+        type: 3}
+      mAnimSprite: {fileID: -2374567788181924148, guid: ce119c039eafb4f978ff39bef3e1182c,
+        type: 3}
+      mValue: 3
+      Probability: 65
+    - mValueSprite: {fileID: 6306999314160741799, guid: a9e688d14493946c59d56a202af0da1a,
+        type: 3}
+      mAnimSprite: {fileID: 5992323433365659692, guid: ce119c039eafb4f978ff39bef3e1182c,
+        type: 3}
+      mValue: 4
+      Probability: 54
+    - mValueSprite: {fileID: 2428041468874453082, guid: a9e688d14493946c59d56a202af0da1a,
+        type: 3}
+      mAnimSprite: {fileID: -98880948294790926, guid: ce119c039eafb4f978ff39bef3e1182c,
+        type: 3}
+      mValue: 5
+      Probability: 54
+    - mValueSprite: {fileID: -2249631188897383861, guid: a9e688d14493946c59d56a202af0da1a,
+        type: 3}
+      mAnimSprite: {fileID: 2807903715162228348, guid: ce119c039eafb4f978ff39bef3e1182c,
+        type: 3}
+      mValue: 6
+      Probability: 40
+  - id: 8
+    mName: Royal
+    mType: 2
+    mBg: {fileID: 21300000, guid: 489cc5f42d3e947f881bcacbf56120d0, type: 3}
+    mIcon: {fileID: 21300000, guid: d6006876338a5694db23e4febb48e07d, type: 3}
+    mPiecesCount: 0
+    mPieces: 13
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: -1611094506240271985, guid: 8f8923f74e0a16743af557ae3540fe81,
+        type: 3}
+      mAnimSprite: {fileID: -8664430887788986902, guid: 8f0a79fe7f498b24c84aa01da429b72c,
+        type: 3}
+      mValue: 1
+      Probability: 81
+    - mValueSprite: {fileID: 7716870850874289700, guid: 8f8923f74e0a16743af557ae3540fe81,
+        type: 3}
+      mAnimSprite: {fileID: 4849520618043453494, guid: 8f0a79fe7f498b24c84aa01da429b72c,
+        type: 3}
+      mValue: 2
+      Probability: 63
+    - mValueSprite: {fileID: -7976472716045500091, guid: 8f8923f74e0a16743af557ae3540fe81,
+        type: 3}
+      mAnimSprite: {fileID: 4463701640626271996, guid: 8f0a79fe7f498b24c84aa01da429b72c,
+        type: 3}
+      mValue: 3
+      Probability: 59
+    - mValueSprite: {fileID: -3267057795428951069, guid: 8f8923f74e0a16743af557ae3540fe81,
+        type: 3}
+      mAnimSprite: {fileID: -5035165492262811301, guid: 8f0a79fe7f498b24c84aa01da429b72c,
+        type: 3}
+      mValue: 4
+      Probability: 62
+    - mValueSprite: {fileID: -4404809276728549431, guid: 8f8923f74e0a16743af557ae3540fe81,
+        type: 3}
+      mAnimSprite: {fileID: -7531795619509444239, guid: 8f0a79fe7f498b24c84aa01da429b72c,
+        type: 3}
+      mValue: 5
+      Probability: 38
+    - mValueSprite: {fileID: -5533512033538396593, guid: 8f8923f74e0a16743af557ae3540fe81,
+        type: 3}
+      mAnimSprite: {fileID: -4536709290003453770, guid: 8f0a79fe7f498b24c84aa01da429b72c,
+        type: 3}
+      mValue: 6
+      Probability: 38
+  - id: 9
+    mName: Soccer
+    mType: 5
+    mBg: {fileID: 21300000, guid: 0a6b740bd27f34c55b8502f5e40996b2, type: 3}
+    mIcon: {fileID: 21300000, guid: 495eef6b46276b74d87536f78164be44, type: 3}
+    mPiecesCount: 0
+    mPieces: 12
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: -2526136084345338118, guid: 9a56dbc5178df4847b94986a5ccca1c2,
+        type: 3}
+      mAnimSprite: {fileID: -2526136084345338118, guid: 9a56dbc5178df4847b94986a5ccca1c2,
+        type: 3}
+      mValue: 1
+      Probability: 80
+    - mValueSprite: {fileID: -6193169465874641709, guid: 9a56dbc5178df4847b94986a5ccca1c2,
+        type: 3}
+      mAnimSprite: {fileID: -6193169465874641709, guid: 9a56dbc5178df4847b94986a5ccca1c2,
+        type: 3}
+      mValue: 2
+      Probability: 70
+    - mValueSprite: {fileID: -4009017597476125962, guid: 9a56dbc5178df4847b94986a5ccca1c2,
+        type: 3}
+      mAnimSprite: {fileID: -4009017597476125962, guid: 9a56dbc5178df4847b94986a5ccca1c2,
+        type: 3}
+      mValue: 3
+      Probability: 62
+    - mValueSprite: {fileID: -8676835199974953505, guid: 9a56dbc5178df4847b94986a5ccca1c2,
+        type: 3}
+      mAnimSprite: {fileID: -8676835199974953505, guid: 9a56dbc5178df4847b94986a5ccca1c2,
+        type: 3}
+      mValue: 4
+      Probability: 63
+    - mValueSprite: {fileID: 5123746430402113245, guid: 9a56dbc5178df4847b94986a5ccca1c2,
+        type: 3}
+      mAnimSprite: {fileID: 5123746430402113245, guid: 9a56dbc5178df4847b94986a5ccca1c2,
+        type: 3}
+      mValue: 5
+      Probability: 72
+    - mValueSprite: {fileID: -2676754936940204987, guid: 9a56dbc5178df4847b94986a5ccca1c2,
+        type: 3}
+      mAnimSprite: {fileID: -2676754936940204987, guid: 9a56dbc5178df4847b94986a5ccca1c2,
+        type: 3}
+      mValue: 6
+      Probability: 47
+  - id: 10
+    mName: Ice
+    mType: 1
+    mBg: {fileID: 21300000, guid: e6eea4f7cbb9f46f79c0fe06180fa5b3, type: 3}
+    mIcon: {fileID: -5247323767709746719, guid: 9e4dff56ab3864b6a89268816e3c1b3e,
+      type: 3}
+    mPiecesCount: 0
+    mPieces: 14
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: -856085545168688419, guid: 9e4dff56ab3864b6a89268816e3c1b3e,
+        type: 3}
+      mAnimSprite: {fileID: -2833145065042376535, guid: 7329b129e3bf80f45b8199c3a461c738,
+        type: 3}
+      mValue: 1
+      Probability: 82
+    - mValueSprite: {fileID: -1054573163461033994, guid: 9e4dff56ab3864b6a89268816e3c1b3e,
+        type: 3}
+      mAnimSprite: {fileID: 8761499379280106788, guid: 7329b129e3bf80f45b8199c3a461c738,
+        type: 3}
+      mValue: 2
+      Probability: 77
+    - mValueSprite: {fileID: -4747277866943198223, guid: 9e4dff56ab3864b6a89268816e3c1b3e,
+        type: 3}
+      mAnimSprite: {fileID: -1422482388088916826, guid: 7329b129e3bf80f45b8199c3a461c738,
+        type: 3}
+      mValue: 3
+      Probability: 72
+    - mValueSprite: {fileID: -4621826098645276579, guid: 9e4dff56ab3864b6a89268816e3c1b3e,
+        type: 3}
+      mAnimSprite: {fileID: -1313265990772364950, guid: 7329b129e3bf80f45b8199c3a461c738,
+        type: 3}
+      mValue: 4
+      Probability: 56
+    - mValueSprite: {fileID: 6655876435703727693, guid: 9e4dff56ab3864b6a89268816e3c1b3e,
+        type: 3}
+      mAnimSprite: {fileID: -8909264043024637586, guid: 7329b129e3bf80f45b8199c3a461c738,
+        type: 3}
+      mValue: 5
+      Probability: 55
+    - mValueSprite: {fileID: -5679005837793796318, guid: 9e4dff56ab3864b6a89268816e3c1b3e,
+        type: 3}
+      mAnimSprite: {fileID: -4705531875396656415, guid: 7329b129e3bf80f45b8199c3a461c738,
+        type: 3}
+      mValue: 6
+      Probability: 45
+  - id: 11
+    mName: Baseball
+    mType: 5
+    mBg: {fileID: 21300000, guid: 0a6b740bd27f34c55b8502f5e40996b2, type: 3}
+    mIcon: {fileID: -4756616200096138506, guid: b41386c86f64d4f239001ba5a18159fd,
+      type: 3}
+    mPiecesCount: 0
+    mPieces: 16
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: -5644026120064284040, guid: b41386c86f64d4f239001ba5a18159fd,
+        type: 3}
+      mAnimSprite: {fileID: -967411051054531990, guid: a02ac64d0a36d412382e7da0c944916d,
+        type: 3}
+      mValue: 1
+      Probability: 73
+    - mValueSprite: {fileID: 3544578246989842968, guid: b41386c86f64d4f239001ba5a18159fd,
+        type: 3}
+      mAnimSprite: {fileID: -1127273518319283961, guid: a02ac64d0a36d412382e7da0c944916d,
+        type: 3}
+      mValue: 2
+      Probability: 65
+    - mValueSprite: {fileID: 7231875687302758647, guid: b41386c86f64d4f239001ba5a18159fd,
+        type: 3}
+      mAnimSprite: {fileID: -1868186064930878586, guid: a02ac64d0a36d412382e7da0c944916d,
+        type: 3}
+      mValue: 3
+      Probability: 58
+    - mValueSprite: {fileID: 1451982390920285433, guid: b41386c86f64d4f239001ba5a18159fd,
+        type: 3}
+      mAnimSprite: {fileID: 4403279905534584412, guid: a02ac64d0a36d412382e7da0c944916d,
+        type: 3}
+      mValue: 4
+      Probability: 53
+    - mValueSprite: {fileID: -910306340280831676, guid: b41386c86f64d4f239001ba5a18159fd,
+        type: 3}
+      mAnimSprite: {fileID: -1343712700874498048, guid: a02ac64d0a36d412382e7da0c944916d,
+        type: 3}
+      mValue: 5
+      Probability: 53
+    - mValueSprite: {fileID: -9204488731913114215, guid: b41386c86f64d4f239001ba5a18159fd,
+        type: 3}
+      mAnimSprite: {fileID: -5678650577552182894, guid: a02ac64d0a36d412382e7da0c944916d,
+        type: 3}
+      mValue: 6
+      Probability: 44
+  - id: 12
+    mName: Boxing
+    mType: 5
+    mBg: {fileID: 21300000, guid: 0a6b740bd27f34c55b8502f5e40996b2, type: 3}
+    mIcon: {fileID: -7652442718856143303, guid: dbf40537b8b1a4064b953b328fe85b22,
+      type: 3}
+    mPiecesCount: 0
+    mPieces: 15
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: -9068732801947649175, guid: dbf40537b8b1a4064b953b328fe85b22,
+        type: 3}
+      mAnimSprite: {fileID: 7288097197788537214, guid: 085287e04ad364dedae2385343c14436,
+        type: 3}
+      mValue: 1
+      Probability: 79
+    - mValueSprite: {fileID: 3242849448262914307, guid: dbf40537b8b1a4064b953b328fe85b22,
+        type: 3}
+      mAnimSprite: {fileID: -1798289493624273803, guid: 085287e04ad364dedae2385343c14436,
+        type: 3}
+      mValue: 2
+      Probability: 72
+    - mValueSprite: {fileID: -582843013056681943, guid: dbf40537b8b1a4064b953b328fe85b22,
+        type: 3}
+      mAnimSprite: {fileID: 3146704774610340180, guid: 085287e04ad364dedae2385343c14436,
+        type: 3}
+      mValue: 3
+      Probability: 75
+    - mValueSprite: {fileID: -2123062342068258451, guid: dbf40537b8b1a4064b953b328fe85b22,
+        type: 3}
+      mAnimSprite: {fileID: -6501560010377121084, guid: 085287e04ad364dedae2385343c14436,
+        type: 3}
+      mValue: 4
+      Probability: 68
+    - mValueSprite: {fileID: -6316226789378790618, guid: dbf40537b8b1a4064b953b328fe85b22,
+        type: 3}
+      mAnimSprite: {fileID: -5054821784454614389, guid: 085287e04ad364dedae2385343c14436,
+        type: 3}
+      mValue: 5
+      Probability: 64
+    - mValueSprite: {fileID: 31385386287427133, guid: dbf40537b8b1a4064b953b328fe85b22,
+        type: 3}
+      mAnimSprite: {fileID: 4114236138166933367, guid: 085287e04ad364dedae2385343c14436,
+        type: 3}
+      mValue: 6
+      Probability: 45
+  - id: 13
+    mName: Cricket
+    mType: 5
+    mBg: {fileID: 21300000, guid: 0a6b740bd27f34c55b8502f5e40996b2, type: 3}
+    mIcon: {fileID: -6597520426434279081, guid: 20b3522c4f09b4d06af7576faf7f6147,
+      type: 3}
+    mPiecesCount: 0
+    mPieces: 16
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 5871094851771035901, guid: 20b3522c4f09b4d06af7576faf7f6147,
+        type: 3}
+      mAnimSprite: {fileID: -2833145065042376535, guid: 7329b129e3bf80f45b8199c3a461c738,
+        type: 3}
+      mValue: 1
+      Probability: 80
+    - mValueSprite: {fileID: 7832086663750117191, guid: 20b3522c4f09b4d06af7576faf7f6147,
+        type: 3}
+      mAnimSprite: {fileID: 8761499379280106788, guid: 7329b129e3bf80f45b8199c3a461c738,
+        type: 3}
+      mValue: 2
+      Probability: 67
+    - mValueSprite: {fileID: 2874852735296293391, guid: 20b3522c4f09b4d06af7576faf7f6147,
+        type: 3}
+      mAnimSprite: {fileID: -1422482388088916826, guid: 7329b129e3bf80f45b8199c3a461c738,
+        type: 3}
+      mValue: 3
+      Probability: 74
+    - mValueSprite: {fileID: 3248575081804540426, guid: 20b3522c4f09b4d06af7576faf7f6147,
+        type: 3}
+      mAnimSprite: {fileID: -1313265990772364950, guid: 7329b129e3bf80f45b8199c3a461c738,
+        type: 3}
+      mValue: 4
+      Probability: 62
+    - mValueSprite: {fileID: 9142464561825164471, guid: 20b3522c4f09b4d06af7576faf7f6147,
+        type: 3}
+      mAnimSprite: {fileID: -8909264043024637586, guid: 7329b129e3bf80f45b8199c3a461c738,
+        type: 3}
+      mValue: 5
+      Probability: 76
+    - mValueSprite: {fileID: 785216548530958746, guid: 20b3522c4f09b4d06af7576faf7f6147,
+        type: 3}
+      mAnimSprite: {fileID: -4705531875396656415, guid: 7329b129e3bf80f45b8199c3a461c738,
+        type: 3}
+      mValue: 6
+      Probability: 40
+  - id: 14
+    mName: Ghost
+    mType: 4
+    mBg: {fileID: 21300000, guid: 35d7e6588f1f34db1b9a5e62f4efdf77, type: 3}
+    mIcon: {fileID: -8058635044977053328, guid: 76ac326c9e71f464d9ae774057c0fa1e,
+      type: 3}
+    mPiecesCount: 0
+    mPieces: 13
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 4448715427215634006, guid: 76ac326c9e71f464d9ae774057c0fa1e,
+        type: 3}
+      mAnimSprite: {fileID: -7966609533532560323, guid: 229c38e9898e258419c085698db16d80,
+        type: 3}
+      mValue: 1
+      Probability: 79
+    - mValueSprite: {fileID: -5371487250077298216, guid: 76ac326c9e71f464d9ae774057c0fa1e,
+        type: 3}
+      mAnimSprite: {fileID: 1616680871828299818, guid: 229c38e9898e258419c085698db16d80,
+        type: 3}
+      mValue: 2
+      Probability: 71
+    - mValueSprite: {fileID: 3804052344441610512, guid: 76ac326c9e71f464d9ae774057c0fa1e,
+        type: 3}
+      mAnimSprite: {fileID: 8283565532484918437, guid: 229c38e9898e258419c085698db16d80,
+        type: 3}
+      mValue: 3
+      Probability: 78
+    - mValueSprite: {fileID: -1547119588211550254, guid: 76ac326c9e71f464d9ae774057c0fa1e,
+        type: 3}
+      mAnimSprite: {fileID: 3680248517474386357, guid: 229c38e9898e258419c085698db16d80,
+        type: 3}
+      mValue: 4
+      Probability: 74
+    - mValueSprite: {fileID: -3115759949177479005, guid: 76ac326c9e71f464d9ae774057c0fa1e,
+        type: 3}
+      mAnimSprite: {fileID: 5065522994047395035, guid: 229c38e9898e258419c085698db16d80,
+        type: 3}
+      mValue: 5
+      Probability: 69
+    - mValueSprite: {fileID: 6877805946922726449, guid: 76ac326c9e71f464d9ae774057c0fa1e,
+        type: 3}
+      mAnimSprite: {fileID: -119014098095886436, guid: 229c38e9898e258419c085698db16d80,
+        type: 3}
+      mValue: 6
+      Probability: 39
+  - id: 15
+    mName: Gold Bar
+    mType: 1
+    mBg: {fileID: 21300000, guid: e6eea4f7cbb9f46f79c0fe06180fa5b3, type: 3}
+    mIcon: {fileID: -407856595642065811, guid: 18a165bf5260d49928b58adbf1d39093, type: 3}
+    mPiecesCount: 0
+    mPieces: 15
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: -6301429047446442448, guid: 18a165bf5260d49928b58adbf1d39093,
+        type: 3}
+      mAnimSprite: {fileID: 2760386653932425458, guid: 1e48e1336a1b941b6a06bdc014dc7651,
+        type: 3}
+      mValue: 1
+      Probability: 76
+    - mValueSprite: {fileID: -6116963357262179218, guid: 18a165bf5260d49928b58adbf1d39093,
+        type: 3}
+      mAnimSprite: {fileID: -5545664497321190347, guid: 1e48e1336a1b941b6a06bdc014dc7651,
+        type: 3}
+      mValue: 2
+      Probability: 66
+    - mValueSprite: {fileID: -5275974221471470513, guid: 18a165bf5260d49928b58adbf1d39093,
+        type: 3}
+      mAnimSprite: {fileID: -4011998877183404202, guid: 1e48e1336a1b941b6a06bdc014dc7651,
+        type: 3}
+      mValue: 3
+      Probability: 67
+    - mValueSprite: {fileID: 8413302526757980907, guid: 18a165bf5260d49928b58adbf1d39093,
+        type: 3}
+      mAnimSprite: {fileID: 6334938015351673656, guid: 1e48e1336a1b941b6a06bdc014dc7651,
+        type: 3}
+      mValue: 4
+      Probability: 58
+    - mValueSprite: {fileID: -5533810949261644772, guid: 18a165bf5260d49928b58adbf1d39093,
+        type: 3}
+      mAnimSprite: {fileID: 6334938015351673656, guid: 1e48e1336a1b941b6a06bdc014dc7651,
+        type: 3}
+      mValue: 5
+      Probability: 50
+    - mValueSprite: {fileID: 6281173559678341316, guid: 18a165bf5260d49928b58adbf1d39093,
+        type: 3}
+      mAnimSprite: {fileID: -4764445085367757568, guid: 1e48e1336a1b941b6a06bdc014dc7651,
+        type: 3}
+      mValue: 6
+      Probability: 45
+  - id: 16
+    mName: Molten Rock
+    mType: 4
+    mBg: {fileID: 21300000, guid: 35d7e6588f1f34db1b9a5e62f4efdf77, type: 3}
+    mIcon: {fileID: -7729243704873014255, guid: 981c884ffe2114458a9033f393bd6af5,
+      type: 3}
+    mPiecesCount: 0
+    mPieces: 13
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: -397256704765217161, guid: 981c884ffe2114458a9033f393bd6af5,
+        type: 3}
+      mAnimSprite: {fileID: 2064910412690990330, guid: dc8ae895592fd4f8da1fe5257e5c8006,
+        type: 3}
+      mValue: 1
+      Probability: 78
+    - mValueSprite: {fileID: -1115424424246553385, guid: 981c884ffe2114458a9033f393bd6af5,
+        type: 3}
+      mAnimSprite: {fileID: 9002568953530725630, guid: dc8ae895592fd4f8da1fe5257e5c8006,
+        type: 3}
+      mValue: 2
+      Probability: 72
+    - mValueSprite: {fileID: 3191759523044218715, guid: 981c884ffe2114458a9033f393bd6af5,
+        type: 3}
+      mAnimSprite: {fileID: 2275536918292656881, guid: dc8ae895592fd4f8da1fe5257e5c8006,
+        type: 3}
+      mValue: 3
+      Probability: 62
+    - mValueSprite: {fileID: -1209184177175857831, guid: 981c884ffe2114458a9033f393bd6af5,
+        type: 3}
+      mAnimSprite: {fileID: 2505783072932332167, guid: dc8ae895592fd4f8da1fe5257e5c8006,
+        type: 3}
+      mValue: 4
+      Probability: 53
+    - mValueSprite: {fileID: -5496089732190693541, guid: 981c884ffe2114458a9033f393bd6af5,
+        type: 3}
+      mAnimSprite: {fileID: -8711580695010033828, guid: dc8ae895592fd4f8da1fe5257e5c8006,
+        type: 3}
+      mValue: 5
+      Probability: 48
+    - mValueSprite: {fileID: -3261205591902871965, guid: 981c884ffe2114458a9033f393bd6af5,
+        type: 3}
+      mAnimSprite: {fileID: 4454612072765905068, guid: dc8ae895592fd4f8da1fe5257e5c8006,
+        type: 3}
+      mValue: 6
+      Probability: 45
+  - id: 17
+    mName: Popcorns
+    mType: 1
+    mBg: {fileID: 21300000, guid: e6eea4f7cbb9f46f79c0fe06180fa5b3, type: 3}
+    mIcon: {fileID: -730089071767242928, guid: b892b79c7a4694c50a5485c476e1cb4a, type: 3}
+    mPiecesCount: 0
+    mPieces: 13
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 7372990775759129989, guid: b892b79c7a4694c50a5485c476e1cb4a,
+        type: 3}
+      mAnimSprite: {fileID: -1331611444187645096, guid: 919fc8ad6bb6f4b89a086c2b08f05865,
+        type: 3}
+      mValue: 1
+      Probability: 73
+    - mValueSprite: {fileID: -4331176944653904373, guid: b892b79c7a4694c50a5485c476e1cb4a,
+        type: 3}
+      mAnimSprite: {fileID: -2721950535042187172, guid: 919fc8ad6bb6f4b89a086c2b08f05865,
+        type: 3}
+      mValue: 2
+      Probability: 66
+    - mValueSprite: {fileID: -5953411613785386793, guid: b892b79c7a4694c50a5485c476e1cb4a,
+        type: 3}
+      mAnimSprite: {fileID: -4955082596644560987, guid: 919fc8ad6bb6f4b89a086c2b08f05865,
+        type: 3}
+      mValue: 3
+      Probability: 60
+    - mValueSprite: {fileID: 5457694789552196728, guid: b892b79c7a4694c50a5485c476e1cb4a,
+        type: 3}
+      mAnimSprite: {fileID: -642463076255239405, guid: 919fc8ad6bb6f4b89a086c2b08f05865,
+        type: 3}
+      mValue: 4
+      Probability: 67
+    - mValueSprite: {fileID: -1588961163521249164, guid: b892b79c7a4694c50a5485c476e1cb4a,
+        type: 3}
+      mAnimSprite: {fileID: 401221366187739126, guid: 919fc8ad6bb6f4b89a086c2b08f05865,
+        type: 3}
+      mValue: 5
+      Probability: 54
+    - mValueSprite: {fileID: -6541377012040898944, guid: b892b79c7a4694c50a5485c476e1cb4a,
+        type: 3}
+      mAnimSprite: {fileID: -469459509927705473, guid: 919fc8ad6bb6f4b89a086c2b08f05865,
+        type: 3}
+      mValue: 6
+      Probability: 43
+  - id: 18
+    mName: Pumpkin
+    mType: 1
+    mBg: {fileID: 21300000, guid: e6eea4f7cbb9f46f79c0fe06180fa5b3, type: 3}
+    mIcon: {fileID: -3283799310730625120, guid: bb723c5f44eaa414c89e048d763a9a67,
+      type: 3}
+    mPiecesCount: 0
+    mPieces: 12
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 3801843947054940190, guid: bb723c5f44eaa414c89e048d763a9a67,
+        type: 3}
+      mAnimSprite: {fileID: -3391002485079070731, guid: 7bafb1b6efa5d411297df6bafcd4da52,
+        type: 3}
+      mValue: 1
+      Probability: 79
+    - mValueSprite: {fileID: -6655579283965948428, guid: bb723c5f44eaa414c89e048d763a9a67,
+        type: 3}
+      mAnimSprite: {fileID: -2469394505488407757, guid: 7bafb1b6efa5d411297df6bafcd4da52,
+        type: 3}
+      mValue: 2
+      Probability: 71
+    - mValueSprite: {fileID: -6609195513140498240, guid: bb723c5f44eaa414c89e048d763a9a67,
+        type: 3}
+      mAnimSprite: {fileID: -1422482388088916826, guid: 7329b129e3bf80f45b8199c3a461c738,
+        type: 3}
+      mValue: 3
+      Probability: 65
+    - mValueSprite: {fileID: 7146241959951293642, guid: bb723c5f44eaa414c89e048d763a9a67,
+        type: 3}
+      mAnimSprite: {fileID: -2488088668558002430, guid: 7bafb1b6efa5d411297df6bafcd4da52,
+        type: 3}
+      mValue: 4
+      Probability: 52
+    - mValueSprite: {fileID: -6798800175903316494, guid: bb723c5f44eaa414c89e048d763a9a67,
+        type: 3}
+      mAnimSprite: {fileID: 4397949681548541696, guid: 7bafb1b6efa5d411297df6bafcd4da52,
+        type: 3}
+      mValue: 5
+      Probability: 56
+    - mValueSprite: {fileID: 5743314507615995187, guid: bb723c5f44eaa414c89e048d763a9a67,
+        type: 3}
+      mAnimSprite: {fileID: -4385397415326805229, guid: 7bafb1b6efa5d411297df6bafcd4da52,
+        type: 3}
+      mValue: 6
+      Probability: 44
+  - id: 19
+    mName: Skeleton
+    mType: 4
+    mBg: {fileID: 21300000, guid: 35d7e6588f1f34db1b9a5e62f4efdf77, type: 3}
+    mIcon: {fileID: -7423335518844729702, guid: c1234b7eb9c6847d79cf44080367a417,
+      type: 3}
+    mPiecesCount: 0
+    mPieces: 13
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: -964824239653993824, guid: c1234b7eb9c6847d79cf44080367a417,
+        type: 3}
+      mAnimSprite: {fileID: -4083938335147629447, guid: 4f8ed9b4f8bfe4d5fb3831985737cb6d,
+        type: 3}
+      mValue: 1
+      Probability: 78
+    - mValueSprite: {fileID: -3264722998049715623, guid: c1234b7eb9c6847d79cf44080367a417,
+        type: 3}
+      mAnimSprite: {fileID: 1537762947737614922, guid: 4f8ed9b4f8bfe4d5fb3831985737cb6d,
+        type: 3}
+      mValue: 2
+      Probability: 72
+    - mValueSprite: {fileID: 1664357772287024801, guid: c1234b7eb9c6847d79cf44080367a417,
+        type: 3}
+      mAnimSprite: {fileID: 2807027854324537469, guid: 4f8ed9b4f8bfe4d5fb3831985737cb6d,
+        type: 3}
+      mValue: 3
+      Probability: 56
+    - mValueSprite: {fileID: -1861396428348373837, guid: c1234b7eb9c6847d79cf44080367a417,
+        type: 3}
+      mAnimSprite: {fileID: -7266565057185219466, guid: 4f8ed9b4f8bfe4d5fb3831985737cb6d,
+        type: 3}
+      mValue: 4
+      Probability: 59
+    - mValueSprite: {fileID: 770891633333027474, guid: c1234b7eb9c6847d79cf44080367a417,
+        type: 3}
+      mAnimSprite: {fileID: -740181169418943774, guid: 4f8ed9b4f8bfe4d5fb3831985737cb6d,
+        type: 3}
+      mValue: 5
+      Probability: 55
+    - mValueSprite: {fileID: -8664327905045170009, guid: c1234b7eb9c6847d79cf44080367a417,
+        type: 3}
+      mAnimSprite: {fileID: 1870506074012603056, guid: 4f8ed9b4f8bfe4d5fb3831985737cb6d,
+        type: 3}
+      mValue: 6
+      Probability: 47
+  - id: 20
+    mName: Tiger
+    mType: 3
+    mBg: {fileID: 21300000, guid: 84063999b9e1741d099c1d8f7bbc0f7a, type: 3}
+    mIcon: {fileID: 3204766462337058217, guid: 101ac6aa7bb244269a2b69955d5c1839, type: 3}
+    mPiecesCount: 0
+    mPieces: 15
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 9085329464345055985, guid: 101ac6aa7bb244269a2b69955d5c1839,
+        type: 3}
+      mAnimSprite: {fileID: 5101979343273788208, guid: 2ddafbe3ae5d740c0a880d78e3912439,
+        type: 3}
+      mValue: 1
+      Probability: 77
+    - mValueSprite: {fileID: 3646694801614110167, guid: 101ac6aa7bb244269a2b69955d5c1839,
+        type: 3}
+      mAnimSprite: {fileID: -8613490976436347839, guid: 2ddafbe3ae5d740c0a880d78e3912439,
+        type: 3}
+      mValue: 2
+      Probability: 64
+    - mValueSprite: {fileID: -677324563060286579, guid: 101ac6aa7bb244269a2b69955d5c1839,
+        type: 3}
+      mAnimSprite: {fileID: -3038202418606018238, guid: 2ddafbe3ae5d740c0a880d78e3912439,
+        type: 3}
+      mValue: 3
+      Probability: 60
+    - mValueSprite: {fileID: -8173765308803780140, guid: 101ac6aa7bb244269a2b69955d5c1839,
+        type: 3}
+      mAnimSprite: {fileID: -3038202418606018238, guid: 2ddafbe3ae5d740c0a880d78e3912439,
+        type: 3}
+      mValue: 4
+      Probability: 53
+    - mValueSprite: {fileID: 7461850523978401518, guid: 101ac6aa7bb244269a2b69955d5c1839,
+        type: 3}
+      mAnimSprite: {fileID: -254456509277280502, guid: 2ddafbe3ae5d740c0a880d78e3912439,
+        type: 3}
+      mValue: 5
+      Probability: 55
+    - mValueSprite: {fileID: 8404210632704132008, guid: 101ac6aa7bb244269a2b69955d5c1839,
+        type: 3}
+      mAnimSprite: {fileID: -6095418431918074342, guid: 2ddafbe3ae5d740c0a880d78e3912439,
+        type: 3}
+      mValue: 6
+      Probability: 44
+  - id: 21
+    mName: Wolf
+    mType: 3
+    mBg: {fileID: 21300000, guid: 84063999b9e1741d099c1d8f7bbc0f7a, type: 3}
+    mIcon: {fileID: -6867248659564942541, guid: 97f0e0e2a708742ada04ace75da7c510,
+      type: 3}
+    mPiecesCount: 0
+    mPieces: 16
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 7444046612802208997, guid: 97f0e0e2a708742ada04ace75da7c510,
+        type: 3}
+      mAnimSprite: {fileID: 3247888540275480181, guid: 90cfdad00f44947ce8d59d889c4a1380,
+        type: 3}
+      mValue: 1
+      Probability: 72
+    - mValueSprite: {fileID: -6836296053957781073, guid: 97f0e0e2a708742ada04ace75da7c510,
+        type: 3}
+      mAnimSprite: {fileID: -5802409233984137367, guid: 90cfdad00f44947ce8d59d889c4a1380,
+        type: 3}
+      mValue: 2
+      Probability: 80
+    - mValueSprite: {fileID: 8955941877185701628, guid: 97f0e0e2a708742ada04ace75da7c510,
+        type: 3}
+      mAnimSprite: {fileID: -1646004032993663075, guid: 90cfdad00f44947ce8d59d889c4a1380,
+        type: 3}
+      mValue: 3
+      Probability: 76
+    - mValueSprite: {fileID: 8725252868083873810, guid: 97f0e0e2a708742ada04ace75da7c510,
+        type: 3}
+      mAnimSprite: {fileID: 207083221163558580, guid: 90cfdad00f44947ce8d59d889c4a1380,
+        type: 3}
+      mValue: 4
+      Probability: 60
+    - mValueSprite: {fileID: -130435296094828817, guid: 97f0e0e2a708742ada04ace75da7c510,
+        type: 3}
+      mAnimSprite: {fileID: -1646004032993663075, guid: 90cfdad00f44947ce8d59d889c4a1380,
+        type: 3}
+      mValue: 5
+      Probability: 49
+    - mValueSprite: {fileID: 341809711022862023, guid: 97f0e0e2a708742ada04ace75da7c510,
+        type: 3}
+      mAnimSprite: {fileID: 1184640926651657273, guid: 90cfdad00f44947ce8d59d889c4a1380,
+        type: 3}
+      mValue: 6
+      Probability: 42
+  - id: 22
+    mName: Zombie
+    mType: 4
+    mBg: {fileID: 21300000, guid: 35d7e6588f1f34db1b9a5e62f4efdf77, type: 3}
+    mIcon: {fileID: 1151005158744226623, guid: 1bbc8da8539c84d518971e132d7c407e, type: 3}
+    mPiecesCount: 0
+    mPieces: 17
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: -5782521184205631276, guid: 1bbc8da8539c84d518971e132d7c407e,
+        type: 3}
+      mAnimSprite: {fileID: 7328811981958685007, guid: 7678edec2f31e47569dcd140e13d5ded,
+        type: 3}
+      mValue: 1
+      Probability: 80
+    - mValueSprite: {fileID: 7424166911509628443, guid: 1bbc8da8539c84d518971e132d7c407e,
+        type: 3}
+      mAnimSprite: {fileID: 8536778239913658377, guid: 7678edec2f31e47569dcd140e13d5ded,
+        type: 3}
+      mValue: 2
+      Probability: 66
+    - mValueSprite: {fileID: -2758051070605636368, guid: 1bbc8da8539c84d518971e132d7c407e,
+        type: 3}
+      mAnimSprite: {fileID: 1809454895067650492, guid: 7678edec2f31e47569dcd140e13d5ded,
+        type: 3}
+      mValue: 3
+      Probability: 72
+    - mValueSprite: {fileID: 8344143291265281608, guid: 1bbc8da8539c84d518971e132d7c407e,
+        type: 3}
+      mAnimSprite: {fileID: -6230636108711120028, guid: 7678edec2f31e47569dcd140e13d5ded,
+        type: 3}
+      mValue: 4
+      Probability: 67
+    - mValueSprite: {fileID: -5597760131145927102, guid: 1bbc8da8539c84d518971e132d7c407e,
+        type: 3}
+      mAnimSprite: {fileID: -4786745887600803924, guid: 7678edec2f31e47569dcd140e13d5ded,
+        type: 3}
+      mValue: 5
+      Probability: 64
+    - mValueSprite: {fileID: 4886205664765569991, guid: 1bbc8da8539c84d518971e132d7c407e,
+        type: 3}
+      mAnimSprite: {fileID: -1482826318839286731, guid: 7678edec2f31e47569dcd140e13d5ded,
+        type: 3}
+      mValue: 6
+      Probability: 46
+  - id: 23
+    mName: Snow Tiger
+    mType: 5
+    mBg: {fileID: 21300000, guid: 0a6b740bd27f34c55b8502f5e40996b2, type: 3}
+    mIcon: {fileID: 21300000, guid: 946a22d91bf43924daa8fb00ba01b933, type: 3}
+    mPiecesCount: 0
+    mPieces: 13
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 2521328150197783900, guid: 695710e61c7a4064ba48a4b9ee57c067,
+        type: 3}
+      mAnimSprite: {fileID: -4404046914858095971, guid: 68e49e7bbf139d146ad19c6b68de2c07,
+        type: 3}
+      mValue: 1
+      Probability: 82
+    - mValueSprite: {fileID: -2060098666726726461, guid: 695710e61c7a4064ba48a4b9ee57c067,
+        type: 3}
+      mAnimSprite: {fileID: 2361386124365867409, guid: 68e49e7bbf139d146ad19c6b68de2c07,
+        type: 3}
+      mValue: 2
+      Probability: 74
+    - mValueSprite: {fileID: 5501585648749909573, guid: 695710e61c7a4064ba48a4b9ee57c067,
+        type: 3}
+      mAnimSprite: {fileID: -1502958474915761981, guid: 68e49e7bbf139d146ad19c6b68de2c07,
+        type: 3}
+      mValue: 3
+      Probability: 73
+    - mValueSprite: {fileID: 1124650213863244339, guid: 695710e61c7a4064ba48a4b9ee57c067,
+        type: 3}
+      mAnimSprite: {fileID: -2983088454345588259, guid: 68e49e7bbf139d146ad19c6b68de2c07,
+        type: 3}
+      mValue: 4
+      Probability: 69
+    - mValueSprite: {fileID: 3107240153870069883, guid: 695710e61c7a4064ba48a4b9ee57c067,
+        type: 3}
+      mAnimSprite: {fileID: -1359639642729496351, guid: 68e49e7bbf139d146ad19c6b68de2c07,
+        type: 3}
+      mValue: 5
+      Probability: 64
+    - mValueSprite: {fileID: -47963009321492134, guid: 695710e61c7a4064ba48a4b9ee57c067,
+        type: 3}
+      mAnimSprite: {fileID: 9147765849482005163, guid: 68e49e7bbf139d146ad19c6b68de2c07,
+        type: 3}
+      mValue: 6
+      Probability: 44
+  - id: 24
+    mName: Horse
+    mType: 3
+    mBg: {fileID: 21300000, guid: 84063999b9e1741d099c1d8f7bbc0f7a, type: 3}
+    mIcon: {fileID: 21300000, guid: d22fd243a0230864097bc1d651565b80, type: 3}
+    mPiecesCount: 0
+    mPieces: 13
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 7906846715238685741, guid: ae9862ae2da99d04da0daa44cf4d281b,
+        type: 3}
+      mAnimSprite: {fileID: 6967725470448160276, guid: 8b3126b41aac0134c8a5eb2243c0a31b,
+        type: 3}
+      mValue: 1
+      Probability: 78
+    - mValueSprite: {fileID: 3665551160344809211, guid: ae9862ae2da99d04da0daa44cf4d281b,
+        type: 3}
+      mAnimSprite: {fileID: 687867010651020831, guid: 8b3126b41aac0134c8a5eb2243c0a31b,
+        type: 3}
+      mValue: 2
+      Probability: 68
+    - mValueSprite: {fileID: 3812262373024559997, guid: ae9862ae2da99d04da0daa44cf4d281b,
+        type: 3}
+      mAnimSprite: {fileID: 8253172051152143354, guid: 8b3126b41aac0134c8a5eb2243c0a31b,
+        type: 3}
+      mValue: 3
+      Probability: 66
+    - mValueSprite: {fileID: -3667937050774249097, guid: ae9862ae2da99d04da0daa44cf4d281b,
+        type: 3}
+      mAnimSprite: {fileID: 3562938494154413768, guid: 8b3126b41aac0134c8a5eb2243c0a31b,
+        type: 3}
+      mValue: 4
+      Probability: 71
+    - mValueSprite: {fileID: 9174968189021884442, guid: ae9862ae2da99d04da0daa44cf4d281b,
+        type: 3}
+      mAnimSprite: {fileID: 396378508146374755, guid: 8b3126b41aac0134c8a5eb2243c0a31b,
+        type: 3}
+      mValue: 5
+      Probability: 60
+    - mValueSprite: {fileID: 6854886448786990552, guid: ae9862ae2da99d04da0daa44cf4d281b,
+        type: 3}
+      mAnimSprite: {fileID: -8600865505158696130, guid: 8b3126b41aac0134c8a5eb2243c0a31b,
+        type: 3}
+      mValue: 6
+      Probability: 42
+  - id: 25
+    mName: Desert
+    mType: 1
+    mBg: {fileID: 21300000, guid: e6eea4f7cbb9f46f79c0fe06180fa5b3, type: 3}
+    mIcon: {fileID: 21300000, guid: 99728cd64ec8e094eb81bc3c8dfdb68c, type: 3}
+    mPiecesCount: 0
+    mPieces: 11
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: -3821958514164716025, guid: 6fbf5b4a762b7444d85921ef235b0bcb,
+        type: 3}
+      mAnimSprite: {fileID: 8935990435022509824, guid: 93160e83a74518e4695a61800fcf023a,
+        type: 3}
+      mValue: 1
+      Probability: 78
+    - mValueSprite: {fileID: 4846746668121718370, guid: 6fbf5b4a762b7444d85921ef235b0bcb,
+        type: 3}
+      mAnimSprite: {fileID: -2942634782022675449, guid: 93160e83a74518e4695a61800fcf023a,
+        type: 3}
+      mValue: 2
+      Probability: 72
+    - mValueSprite: {fileID: -1416059172098871717, guid: 6fbf5b4a762b7444d85921ef235b0bcb,
+        type: 3}
+      mAnimSprite: {fileID: -510283502412571250, guid: 93160e83a74518e4695a61800fcf023a,
+        type: 3}
+      mValue: 3
+      Probability: 67
+    - mValueSprite: {fileID: -1221255419110018624, guid: 6fbf5b4a762b7444d85921ef235b0bcb,
+        type: 3}
+      mAnimSprite: {fileID: 1874024430027228679, guid: 93160e83a74518e4695a61800fcf023a,
+        type: 3}
+      mValue: 4
+      Probability: 55
+    - mValueSprite: {fileID: 1709253192647919621, guid: 6fbf5b4a762b7444d85921ef235b0bcb,
+        type: 3}
+      mAnimSprite: {fileID: 3459578850045492172, guid: 93160e83a74518e4695a61800fcf023a,
+        type: 3}
+      mValue: 5
+      Probability: 53
+    - mValueSprite: {fileID: -1936041255354182293, guid: 6fbf5b4a762b7444d85921ef235b0bcb,
+        type: 3}
+      mAnimSprite: {fileID: 6657485640266896580, guid: 93160e83a74518e4695a61800fcf023a,
+        type: 3}
+      mValue: 6
+      Probability: 44
+  - id: 26
+    mName: Diamond
+    mType: 1
+    mBg: {fileID: 21300000, guid: e6eea4f7cbb9f46f79c0fe06180fa5b3, type: 3}
+    mIcon: {fileID: 21300000, guid: 2c97be91e6af6ca47bfcd7c70e043ccf, type: 3}
+    mPiecesCount: 0
+    mPieces: 13
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: -3027812502618519168, guid: fce312f7131c9824fa6f182d518302b4,
+        type: 3}
+      mAnimSprite: {fileID: -3027812502618519168, guid: fce312f7131c9824fa6f182d518302b4,
+        type: 3}
+      mValue: 1
+      Probability: 77
+    - mValueSprite: {fileID: 7288725909758936657, guid: fce312f7131c9824fa6f182d518302b4,
+        type: 3}
+      mAnimSprite: {fileID: 1616680871828299818, guid: 229c38e9898e258419c085698db16d80,
+        type: 3}
+      mValue: 2
+      Probability: 75
+    - mValueSprite: {fileID: -1613960561944300722, guid: fce312f7131c9824fa6f182d518302b4,
+        type: 3}
+      mAnimSprite: {fileID: 8283565532484918437, guid: 229c38e9898e258419c085698db16d80,
+        type: 3}
+      mValue: 3
+      Probability: 62
+    - mValueSprite: {fileID: 3680248517474386357, guid: 229c38e9898e258419c085698db16d80,
+        type: 3}
+      mAnimSprite: {fileID: -3264208925802798007, guid: fce312f7131c9824fa6f182d518302b4,
+        type: 3}
+      mValue: 4
+      Probability: 52
+    - mValueSprite: {fileID: -1241581263372509888, guid: fce312f7131c9824fa6f182d518302b4,
+        type: 3}
+      mAnimSprite: {fileID: 5065522994047395035, guid: 229c38e9898e258419c085698db16d80,
+        type: 3}
+      mValue: 5
+      Probability: 60
+    - mValueSprite: {fileID: -3642853521926267067, guid: fce312f7131c9824fa6f182d518302b4,
+        type: 3}
+      mAnimSprite: {fileID: -119014098095886436, guid: 229c38e9898e258419c085698db16d80,
+        type: 3}
+      mValue: 6
+      Probability: 46
+  - id: 27
+    mName: Blue Diamond
+    mType: 2
+    mBg: {fileID: 21300000, guid: 489cc5f42d3e947f881bcacbf56120d0, type: 3}
+    mIcon: {fileID: 21300000, guid: b3e2040b9009c8644ba2759305f402bb, type: 3}
+    mPiecesCount: 0
+    mPieces: 12
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 5770148721595233841, guid: 6a5b198bd522c754d910ce62bb26ab50,
+        type: 3}
+      mAnimSprite: {fileID: -6780668384899348282, guid: f0ddcd913cc15f64c9641b92a9a3048f,
+        type: 3}
+      mValue: 1
+      Probability: 76
+    - mValueSprite: {fileID: -3558205114290335464, guid: 6a5b198bd522c754d910ce62bb26ab50,
+        type: 3}
+      mAnimSprite: {fileID: -5902265948521315598, guid: f0ddcd913cc15f64c9641b92a9a3048f,
+        type: 3}
+      mValue: 2
+      Probability: 76
+    - mValueSprite: {fileID: 7363118758793902400, guid: 6a5b198bd522c754d910ce62bb26ab50,
+        type: 3}
+      mAnimSprite: {fileID: 6324732383952767903, guid: f0ddcd913cc15f64c9641b92a9a3048f,
+        type: 3}
+      mValue: 3
+      Probability: 53
+    - mValueSprite: {fileID: 2655247950123271542, guid: 6a5b198bd522c754d910ce62bb26ab50,
+        type: 3}
+      mAnimSprite: {fileID: 4955971366446333493, guid: f0ddcd913cc15f64c9641b92a9a3048f,
+        type: 3}
+      mValue: 4
+      Probability: 62
+    - mValueSprite: {fileID: 3095718861442135402, guid: 6a5b198bd522c754d910ce62bb26ab50,
+        type: 3}
+      mAnimSprite: {fileID: -5067434806418899048, guid: f0ddcd913cc15f64c9641b92a9a3048f,
+        type: 3}
+      mValue: 5
+      Probability: 65
+    - mValueSprite: {fileID: -416656331319993649, guid: 6a5b198bd522c754d910ce62bb26ab50,
+        type: 3}
+      mAnimSprite: {fileID: -4079735935370072484, guid: f0ddcd913cc15f64c9641b92a9a3048f,
+        type: 3}
+      mValue: 6
+      Probability: 48
+  - id: 28
+    mName: Butterfly
+    mType: 3
+    mBg: {fileID: 21300000, guid: 84063999b9e1741d099c1d8f7bbc0f7a, type: 3}
+    mIcon: {fileID: 21300000, guid: ec6086de947dcc449a815cc20aa1b488, type: 3}
+    mPiecesCount: 0
+    mPieces: 14
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 1393016909396813151, guid: f19bc85dafef8ee4eb485119b60828aa,
+        type: 3}
+      mAnimSprite: {fileID: -3526277615983962863, guid: 2c308308baac82e4283e43356329dc86,
+        type: 3}
+      mValue: 1
+      Probability: 81
+    - mValueSprite: {fileID: 3811918750847240316, guid: f19bc85dafef8ee4eb485119b60828aa,
+        type: 3}
+      mAnimSprite: {fileID: -1394122223076578084, guid: 2c308308baac82e4283e43356329dc86,
+        type: 3}
+      mValue: 2
+      Probability: 64
+    - mValueSprite: {fileID: 2929632245911867766, guid: f19bc85dafef8ee4eb485119b60828aa,
+        type: 3}
+      mAnimSprite: {fileID: 2822243083861286555, guid: 2c308308baac82e4283e43356329dc86,
+        type: 3}
+      mValue: 3
+      Probability: 61
+    - mValueSprite: {fileID: -7290251421445969689, guid: f19bc85dafef8ee4eb485119b60828aa,
+        type: 3}
+      mAnimSprite: {fileID: 1500437979091219596, guid: 2c308308baac82e4283e43356329dc86,
+        type: 3}
+      mValue: 4
+      Probability: 54
+    - mValueSprite: {fileID: -7468785847132959631, guid: f19bc85dafef8ee4eb485119b60828aa,
+        type: 3}
+      mAnimSprite: {fileID: 5620728229845035448, guid: 2c308308baac82e4283e43356329dc86,
+        type: 3}
+      mValue: 5
+      Probability: 65
+    - mValueSprite: {fileID: 7962818350668702846, guid: f19bc85dafef8ee4eb485119b60828aa,
+        type: 3}
+      mAnimSprite: {fileID: -815529771723501786, guid: 2c308308baac82e4283e43356329dc86,
+        type: 3}
+      mValue: 6
+      Probability: 44
+  - id: 29
+    mName: Monster
+    mType: 4
+    mBg: {fileID: 21300000, guid: 35d7e6588f1f34db1b9a5e62f4efdf77, type: 3}
+    mIcon: {fileID: 21300000, guid: 4f6cb5f52d2d11e43b6510b5dd79589c, type: 3}
+    mPiecesCount: 0
+    mPieces: 13
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 6601969044897589518, guid: 4a9c8611243b627409bb8a158bcb9fc4,
+        type: 3}
+      mAnimSprite: {fileID: -8327661320924140120, guid: 335a17a3b0454f9438c46927ac173fd0,
+        type: 3}
+      mValue: 1
+      Probability: 70
+    - mValueSprite: {fileID: 3413120763861954837, guid: 4a9c8611243b627409bb8a158bcb9fc4,
+        type: 3}
+      mAnimSprite: {fileID: 2372344578546844594, guid: 335a17a3b0454f9438c46927ac173fd0,
+        type: 3}
+      mValue: 2
+      Probability: 62
+    - mValueSprite: {fileID: -6917325884474329878, guid: 4a9c8611243b627409bb8a158bcb9fc4,
+        type: 3}
+      mAnimSprite: {fileID: -6699028195917737898, guid: 335a17a3b0454f9438c46927ac173fd0,
+        type: 3}
+      mValue: 3
+      Probability: 56
+    - mValueSprite: {fileID: -2248178537408897328, guid: 4a9c8611243b627409bb8a158bcb9fc4,
+        type: 3}
+      mAnimSprite: {fileID: 7445228038945512686, guid: 335a17a3b0454f9438c46927ac173fd0,
+        type: 3}
+      mValue: 4
+      Probability: 52
+    - mValueSprite: {fileID: 5422824857571329605, guid: 4a9c8611243b627409bb8a158bcb9fc4,
+        type: 3}
+      mAnimSprite: {fileID: -4044392104636038194, guid: 335a17a3b0454f9438c46927ac173fd0,
+        type: 3}
+      mValue: 5
+      Probability: 47
+    - mValueSprite: {fileID: -5375978697421886019, guid: 4a9c8611243b627409bb8a158bcb9fc4,
+        type: 3}
+      mAnimSprite: {fileID: 7228474858241480456, guid: 335a17a3b0454f9438c46927ac173fd0,
+        type: 3}
+      mValue: 6
+      Probability: 40
+  - id: 34
+    mName: Kya
+    mType: 7
+    mBg: {fileID: 21300000, guid: c7ade68a31f1d4e12a57617409b6ee8a, type: 3}
+    mIcon: {fileID: 21300000, guid: 9662b7b3483804872888fa06cee71fef, type: 3}
+    mPiecesCount: 4
+    mPieces: 18
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 21300000, guid: bcc51dbe65f064ff6a1afe16e0f2c4ee, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 5b7a7d1145b5e4e9398b2455119daffd, type: 3}
+      mValue: 1
+      Probability: 45
+    - mValueSprite: {fileID: 21300000, guid: 86b96ac2db48f4c0984b5ccf0bf1efb9, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: ddc6b27503f19458d904fe259e42dcb2, type: 3}
+      mValue: 2
+      Probability: 48
+    - mValueSprite: {fileID: 21300000, guid: 3f33602a38a7042459746021239a92bc, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: f5a7f647e0074470cb3da465d0650bd6, type: 3}
+      mValue: 3
+      Probability: 52
+    - mValueSprite: {fileID: 21300000, guid: 876a7b48180d143c68630ed6a64f4ee9, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 5a515f29ae89945bda36b109c2c35e93, type: 3}
+      mValue: 4
+      Probability: 62
+    - mValueSprite: {fileID: 21300000, guid: ebab56d81cb514e3c88acdf86169ffcb, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: f105f3229f3dd48dc8e37361e495a09e, type: 3}
+      mValue: 5
+      Probability: 60
+    - mValueSprite: {fileID: 21300000, guid: ddb03b2e577564ac692d04fc007f079c, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: eca7a51989fe14b7ca2528879b28e9c7, type: 3}
+      mValue: 6
+      Probability: 70
+  - id: 38
+    mName: Ninja
+    mType: 6
+    mBg: {fileID: 21300000, guid: 10d23572713d041c596abf5c00be11dc, type: 3}
+    mIcon: {fileID: 21300000, guid: 5510ece48e0dc4b43b2209c8b6f68d89, type: 3}
+    mPiecesCount: 0
+    mPieces: 15
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 21300000, guid: 4e853bcd54f37452ca0ab141790770d2, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 6431fec76ed934ddf8fa3dc0b0d00b51, type: 3}
+      mValue: 1
+      Probability: 77
+    - mValueSprite: {fileID: 21300000, guid: 1a0ddba8009b84bcaa12ecbe41fd84cf, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 66f77a7e8544046f3bdd42b281c8cd7f, type: 3}
+      mValue: 2
+      Probability: 70
+    - mValueSprite: {fileID: 21300000, guid: 955f71513835b443f97d0924f08dbeb0, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 3fc972a3cb84b49f787ba3dd669ddec0, type: 3}
+      mValue: 3
+      Probability: 60
+    - mValueSprite: {fileID: 21300000, guid: 9b76df55475024fda80a260cab8a4275, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 0a3ccb4fc08964422bf1f98ba7cdf37f, type: 3}
+      mValue: 4
+      Probability: 55
+    - mValueSprite: {fileID: 21300000, guid: d897c15d39778465a86927a5c8c6d8eb, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 38324a4aa11ea4e17af2b978be97a174, type: 3}
+      mValue: 5
+      Probability: 65
+    - mValueSprite: {fileID: 21300000, guid: 72474a23986d343f0bb4fd5de36652f1, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 9c970e231444b422f9b03737c65bfaa3, type: 3}
+      mValue: 6
+      Probability: 65
+  - id: 39
+    mName: Skul
+    mType: 6
+    mBg: {fileID: 21300000, guid: 10d23572713d041c596abf5c00be11dc, type: 3}
+    mIcon: {fileID: 21300000, guid: 6971079729192448cb19f33903cc8dbe, type: 3}
+    mPiecesCount: 0
+    mPieces: 15
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 21300000, guid: 5e1b200136eba4aac980e55d2d63a4de, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 31cce2a402b094ab6b567b722a16a1e9, type: 3}
+      mValue: 1
+      Probability: 65
+    - mValueSprite: {fileID: 21300000, guid: b2a5934c676134ababea52bd8810c20e, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: eb31f6b7b65aa4831b66217fabdf95ef, type: 3}
+      mValue: 2
+      Probability: 55
+    - mValueSprite: {fileID: 21300000, guid: e01fb133aaab44f89ad23b8e04d7f896, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: b2dd2c02afbb74e6e89b3b26a3273187, type: 3}
+      mValue: 3
+      Probability: 68
+    - mValueSprite: {fileID: 21300000, guid: e8e53a5d432dd40f0877248e13f4e628, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: aff7c654a96e64c04afb8a93ea51505a, type: 3}
+      mValue: 4
+      Probability: 65
+    - mValueSprite: {fileID: 21300000, guid: 5709f067fb9c24c2aa266be51e0ffbdb, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 5f33c57ef71704ad69c05f5e971c3e85, type: 3}
+      mValue: 5
+      Probability: 60
+    - mValueSprite: {fileID: 21300000, guid: 913441218fa224680a09e4a32df62b1f, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: c2eebee08625e401d818c00192265379, type: 3}
+      mValue: 6
+      Probability: 65
+  - id: 40
+    mName: Jackal
+    mType: 6
+    mBg: {fileID: 21300000, guid: 10d23572713d041c596abf5c00be11dc, type: 3}
+    mIcon: {fileID: 21300000, guid: a2544ee07fa324d25b359e2ef34e39a3, type: 3}
+    mPiecesCount: 0
+    mPieces: 15
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 21300000, guid: b1d6f015cbadc4292ae6dd12b025be98, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: b14d5daf51e0142edb760eb778673a2f, type: 3}
+      mValue: 1
+      Probability: 72
+    - mValueSprite: {fileID: 21300000, guid: 60cd7e5cf502a4716a94e3f03c8c6bf1, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: d86d39cbd27ef4ca29d76cdd2a0cbc12, type: 3}
+      mValue: 2
+      Probability: 60
+    - mValueSprite: {fileID: 21300000, guid: c3b74e01cdeb14bc98053073a1c127dc, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 7e0b6b490b4384b128d85ed8e75bc6ea, type: 3}
+      mValue: 3
+      Probability: 67
+    - mValueSprite: {fileID: 21300000, guid: 44dd5cd7464424a919aadbfa5213fcaf, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: bd68d931b8a0b41bcaf89578c2edfbf7, type: 3}
+      mValue: 4
+      Probability: 55
+    - mValueSprite: {fileID: 21300000, guid: dab8f5169a1264f8fa13f6dd20a3b128, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: edf66f1c327b44f07822ac3a6220f268, type: 3}
+      mValue: 5
+      Probability: 60
+    - mValueSprite: {fileID: 21300000, guid: a1438e034dd1040c3b8017ca902557cb, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 8947536a9bc0f459caf378a8a53ecb8c, type: 3}
+      mValue: 6
+      Probability: 62
+  - id: 41
+    mName: Plus
+    mType: 6
+    mBg: {fileID: 21300000, guid: 10d23572713d041c596abf5c00be11dc, type: 3}
+    mIcon: {fileID: 21300000, guid: a3839b54b18264dd59e77bec6e1cb922, type: 3}
+    mPiecesCount: 0
+    mPieces: 15
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 21300000, guid: 18fd604d6b1774017a4b81bfbfe4ed27, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: ff95da539f0da4c5590a3606f3ad9963, type: 3}
+      mValue: 1
+      Probability: 65
+    - mValueSprite: {fileID: 21300000, guid: bee5e556658c6402f91b01e7e19e6307, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: f3c9104c432d946218a25a035072e05c, type: 3}
+      mValue: 2
+      Probability: 60
+    - mValueSprite: {fileID: 21300000, guid: cce8d0741279f46d0b11fa081057e54c, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 6692be3d80b644105aee1bda5a4fa9fb, type: 3}
+      mValue: 3
+      Probability: 45
+    - mValueSprite: {fileID: 21300000, guid: f26d3dc952a3344b880ebdd92294a8f6, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: d9bcad766551343f8b7cfb3c50757dd7, type: 3}
+      mValue: 4
+      Probability: 55
+    - mValueSprite: {fileID: 21300000, guid: b0e270310009c4a45adbf2267d59a174, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: b953be02290334f4fb057dfa6f3066b0, type: 3}
+      mValue: 5
+      Probability: 65
+    - mValueSprite: {fileID: 21300000, guid: 956aebb772e9d471a8bc34431e0a18e9, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: b8702c7044e47489e99c6ca854d7c36b, type: 3}
+      mValue: 6
+      Probability: 60
+  - id: 33
+    mName: Gold
+    mType: 7
+    mBg: {fileID: 21300000, guid: c7ade68a31f1d4e12a57617409b6ee8a, type: 3}
+    mIcon: {fileID: 21300000, guid: 07f9cd7e3a963493ea0b466c876916ec, type: 3}
+    mPiecesCount: 0
+    mPieces: 15
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 21300000, guid: 061d9a0e89ce44fe9bd3b6b31f0080e8, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: bc11ca9ca08fa413b80d64e98b026140, type: 3}
+      mValue: 1
+      Probability: 50
+    - mValueSprite: {fileID: 21300000, guid: c2a5b3f6c3b064abf8d7a3d74188cf03, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 8eb4045625be54990b7def26a308bec8, type: 3}
+      mValue: 2
+      Probability: 55
+    - mValueSprite: {fileID: 21300000, guid: 004db8bdfa3ef4da382f0d24321c2532, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 0dca7df7bdae342c6ba9ddc55a6c7cf8, type: 3}
+      mValue: 3
+      Probability: 60
+    - mValueSprite: {fileID: 21300000, guid: 81803459352274d52b988420cac16def, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 19f086ac838a54303ab92445b7d3acec, type: 3}
+      mValue: 4
+      Probability: 55
+    - mValueSprite: {fileID: 21300000, guid: 3bb3840d52f504558b4dfde8e50461dc, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 2db36c9a942be48a38bed017bf975d4c, type: 3}
+      mValue: 5
+      Probability: 65
+    - mValueSprite: {fileID: 21300000, guid: 58686b70176234662846741056db11b2, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: fa6219adbfed841e4934f1600456fe03, type: 3}
+      mValue: 6
+      Probability: 67
+  - id: 35
+    mName: June
+    mType: 7
+    mBg: {fileID: 21300000, guid: c7ade68a31f1d4e12a57617409b6ee8a, type: 3}
+    mIcon: {fileID: 21300000, guid: 24aa6b7ad948243cdaa7e9cff6038d97, type: 3}
+    mPiecesCount: 10
+    mPieces: 18
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 21300000, guid: 2f28794ca49b748b8b5880b2d6171922, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: b830f8ee023d94ba380ce4641999f6e0, type: 3}
+      mValue: 1
+      Probability: 74
+    - mValueSprite: {fileID: 21300000, guid: 1ee1cf1776d134fbe8b84dff4c408333, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 6eb0b745f2d8541f58cc6fa1a6452883, type: 3}
+      mValue: 2
+      Probability: 60
+    - mValueSprite: {fileID: 21300000, guid: 2723940dbbf3844348cd6c3e5698f7fe, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 0d720ad2adbd249beabdf6f0dfbb8dfb, type: 3}
+      mValue: 3
+      Probability: 65
+    - mValueSprite: {fileID: 21300000, guid: 454b4942e795c4fc0a6c2286a0892408, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 1b39832188b964844bff4f54c2784326, type: 3}
+      mValue: 4
+      Probability: 62
+    - mValueSprite: {fileID: 21300000, guid: c187742103d5843868840174478cf9fd, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 218ebb2c784cc44c18ffaa3a31471419, type: 3}
+      mValue: 5
+      Probability: 70
+    - mValueSprite: {fileID: 21300000, guid: 4b3f6f1a0c75d4b2583910b935312c73, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 6bdb90cb96a994d6f92802f00e2ffddd, type: 3}
+      mValue: 6
+      Probability: 74
+  - id: 36
+    mName: SaiFi
+    mType: 7
+    mBg: {fileID: 21300000, guid: c7ade68a31f1d4e12a57617409b6ee8a, type: 3}
+    mIcon: {fileID: 21300000, guid: 8380f331b9e1044ba8ce4a957afeaa6b, type: 3}
+    mPiecesCount: 7
+    mPieces: 18
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 21300000, guid: 290a4ae775e8a4043b48cd80e328431e, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 7cf5fc61a582342f7b1a2ec3aab24230, type: 3}
+      mValue: 1
+      Probability: 65
+    - mValueSprite: {fileID: 21300000, guid: 1126834fd0df74861afefdfdf07aa2a8, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: a9fa6badede624b3796f2b21ab7bf908, type: 3}
+      mValue: 2
+      Probability: 55
+    - mValueSprite: {fileID: 21300000, guid: c40d32a710817400db0ce2461fb45989, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: ee659b56e16f24ed0b8049d0b819a513, type: 3}
+      mValue: 3
+      Probability: 67
+    - mValueSprite: {fileID: 21300000, guid: 2b87b0b51394f4f77a21c3cd61d2db93, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: c5f78bd0972ea4f699d876ae91621562, type: 3}
+      mValue: 4
+      Probability: 72
+    - mValueSprite: {fileID: 21300000, guid: 44ce2fa9738144176aba93e51f1e0063, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 57c152588763b4ac0b1070f3b4978232, type: 3}
+      mValue: 5
+      Probability: 70
+    - mValueSprite: {fileID: 21300000, guid: 02586298a02a6441ca3f35175ebc7c95, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 9ec1908b7698d4c39be8973ec8df8cb6, type: 3}
+      mValue: 6
+      Probability: 77
+  - id: 37
+    mName: Korra
+    mType: 7
+    mBg: {fileID: 21300000, guid: c7ade68a31f1d4e12a57617409b6ee8a, type: 3}
+    mIcon: {fileID: 21300000, guid: d4b82f91481154a0c831fe4a195b90b3, type: 3}
+    mPiecesCount: 35
+    mPieces: 18
+    mBooster: 0
+    mSides:
+    - mValueSprite: {fileID: 21300000, guid: d8ff6b3dc5fd14013b9967639c0e1989, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: c05d690759aa0446aa7d9b76b7823cf5, type: 3}
+      mValue: 1
+      Probability: 66
+    - mValueSprite: {fileID: 21300000, guid: 15c19bf4105104bc498a223d0c9475b1, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: accd5448ee1064925954f5a9a5db6d5d, type: 3}
+      mValue: 2
+      Probability: 56
+    - mValueSprite: {fileID: 21300000, guid: 180a5041e0d15457f9181b63e36ccbca, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 741d45f79e8734ef5b346374ad2adee4, type: 3}
+      mValue: 3
+      Probability: 63
+    - mValueSprite: {fileID: 21300000, guid: 3bd219ac90f2040689466ea5fa11175a, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 6397e632e7b1c4a96b9f23b90837844e, type: 3}
+      mValue: 4
+      Probability: 71
+    - mValueSprite: {fileID: 21300000, guid: a6fc1a01af3ee41bb86643643fef1c53, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 68bb2e8c4bd474ea9a87705752c68c1c, type: 3}
+      mValue: 5
+      Probability: 69
+    - mValueSprite: {fileID: 21300000, guid: abb0f86880bf94bfc99681e2e100f8ee, type: 3}
+      mAnimSprite: {fileID: 21300000, guid: 308ef0b73343a41c890ed79ba88c57dd, type: 3}
+      mValue: 6
+      Probability: 76
+  customPawns:
+  - id: 0
+    mName: 8 Ball
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: 649c0a13a9f78494c9b927507326624b, type: 3}
+    mColors:
+    - {fileID: -8262282878314738058, guid: b203101eb15c34233a29532710042547, type: 3}
+    - {fileID: -8034005234732763810, guid: b203101eb15c34233a29532710042547, type: 3}
+    - {fileID: 8753036489436241909, guid: b203101eb15c34233a29532710042547, type: 3}
+    - {fileID: -6577723687917633034, guid: b203101eb15c34233a29532710042547, type: 3}
+    mPiecesCount: 0
+    mPieces: 4
+    mColor: 0
+  - id: 1
+    mName: Crown
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: 4609243f2a36348889213d6d67a08029, type: 3}
+    mColors:
+    - {fileID: -8262282878314738058, guid: b203101eb15c34233a29532710042547, type: 3}
+    - {fileID: -8034005234732763810, guid: b203101eb15c34233a29532710042547, type: 3}
+    - {fileID: 8753036489436241909, guid: b203101eb15c34233a29532710042547, type: 3}
+    - {fileID: -6577723687917633034, guid: b203101eb15c34233a29532710042547, type: 3}
+    mPiecesCount: 0
+    mPieces: 8
+    mColor: 0
+  - id: 2
+    mName: Emoji
+    mType: 1
+    mBg: {fileID: 21300000, guid: e6eea4f7cbb9f46f79c0fe06180fa5b3, type: 3}
+    mIcon: {fileID: 21300000, guid: a9bff2c206c174077bbf8701dda2fe50, type: 3}
+    mColors:
+    - {fileID: 3486705225732753615, guid: ad88f39280a1c483690b005529d7e301, type: 3}
+    - {fileID: -8285754083434345570, guid: ad88f39280a1c483690b005529d7e301, type: 3}
+    - {fileID: -7469911969875143057, guid: ad88f39280a1c483690b005529d7e301, type: 3}
+    - {fileID: -2176602916785992069, guid: ad88f39280a1c483690b005529d7e301, type: 3}
+    mPiecesCount: 0
+    mPieces: 9
+    mColor: 0
+  - id: 3
+    mName: Fire
+    mType: 2
+    mBg: {fileID: 21300000, guid: 489cc5f42d3e947f881bcacbf56120d0, type: 3}
+    mIcon: {fileID: 21300000, guid: 03bc64865a4a24a368ab13fff64de2ea, type: 3}
+    mColors:
+    - {fileID: 7560391451158338913, guid: c37cc04f6646141b8b4b80bccc15bf0b, type: 3}
+    - {fileID: 6877915703146031351, guid: c37cc04f6646141b8b4b80bccc15bf0b, type: 3}
+    - {fileID: -921571983032931638, guid: c37cc04f6646141b8b4b80bccc15bf0b, type: 3}
+    - {fileID: -1460243548656489224, guid: c37cc04f6646141b8b4b80bccc15bf0b, type: 3}
+    mPiecesCount: 0
+    mPieces: 12
+    mColor: 0
+  - id: 4
+    mName: Flower
+    mType: 3
+    mBg: {fileID: 21300000, guid: 84063999b9e1741d099c1d8f7bbc0f7a, type: 3}
+    mIcon: {fileID: 21300000, guid: 7a064498afa594b479b16a4608993dfd, type: 3}
+    mColors:
+    - {fileID: 5759774489426425463, guid: 8cd345b5be443416b90692257b10da0a, type: 3}
+    - {fileID: 3284143574698708922, guid: 8cd345b5be443416b90692257b10da0a, type: 3}
+    - {fileID: 490493303996333955, guid: 8cd345b5be443416b90692257b10da0a, type: 3}
+    - {fileID: 55043687101106547, guid: 8cd345b5be443416b90692257b10da0a, type: 3}
+    mPiecesCount: 0
+    mPieces: 12
+    mColor: 0
+  - id: 5
+    mName: Football
+    mType: 4
+    mBg: {fileID: 21300000, guid: 35d7e6588f1f34db1b9a5e62f4efdf77, type: 3}
+    mIcon: {fileID: 21300000, guid: af9ea0085e76740a0aa2e5e8d0e14fa5, type: 3}
+    mColors:
+    - {fileID: 6575126235795545150, guid: a2d3af1a09b2645a4b9f31ffb1842fbd, type: 3}
+    - {fileID: -6301040872942655227, guid: a2d3af1a09b2645a4b9f31ffb1842fbd, type: 3}
+    - {fileID: 4588181556271663230, guid: a2d3af1a09b2645a4b9f31ffb1842fbd, type: 3}
+    - {fileID: 6550233182385396268, guid: a2d3af1a09b2645a4b9f31ffb1842fbd, type: 3}
+    mPiecesCount: 23
+    mPieces: 11
+    mColor: 0
+  - id: 6
+    mName: Fruit
+    mType: 5
+    mBg: {fileID: 21300000, guid: 0a6b740bd27f34c55b8502f5e40996b2, type: 3}
+    mIcon: {fileID: 21300000, guid: b6637370e5c4b4ac7b6b602dd962f95c, type: 3}
+    mColors:
+    - {fileID: -6518941017426147950, guid: 148e27993a9c046838a12a35737874ba, type: 3}
+    - {fileID: -4106681197273539384, guid: 148e27993a9c046838a12a35737874ba, type: 3}
+    - {fileID: 6878065391491194567, guid: 148e27993a9c046838a12a35737874ba, type: 3}
+    - {fileID: -2745570318428654708, guid: 148e27993a9c046838a12a35737874ba, type: 3}
+    mPiecesCount: 0
+    mPieces: 13
+    mColor: 0
+  - id: 7
+    mName: Gift
+    mType: 6
+    mBg: {fileID: 21300000, guid: 10d23572713d041c596abf5c00be11dc, type: 3}
+    mIcon: {fileID: 21300000, guid: ed2ffcc2976f54d1d9810d9b0ca2ead6, type: 3}
+    mColors:
+    - {fileID: 3440862397043131298, guid: a03e7666277a14305afb8284b96e483e, type: 3}
+    - {fileID: -1670290037552804870, guid: a03e7666277a14305afb8284b96e483e, type: 3}
+    - {fileID: 5363067669646341917, guid: a03e7666277a14305afb8284b96e483e, type: 3}
+    - {fileID: 3558911310252635646, guid: a03e7666277a14305afb8284b96e483e, type: 3}
+    mPiecesCount: 0
+    mPieces: 9
+    mColor: 0
+  - id: 8
+    mName: Leaf
+    mType: 7
+    mBg: {fileID: 21300000, guid: c7ade68a31f1d4e12a57617409b6ee8a, type: 3}
+    mIcon: {fileID: 21300000, guid: 9dc341656d0914992b06c7fe5fcc8212, type: 3}
+    mColors:
+    - {fileID: 3246228986380730501, guid: 1d4be2c1b5e2d4843a47c1cfcd8c742c, type: 3}
+    - {fileID: 8764542880378637466, guid: 1d4be2c1b5e2d4843a47c1cfcd8c742c, type: 3}
+    - {fileID: -2797578135185204201, guid: 1d4be2c1b5e2d4843a47c1cfcd8c742c, type: 3}
+    - {fileID: -1518231996686111009, guid: 1d4be2c1b5e2d4843a47c1cfcd8c742c, type: 3}
+    mPiecesCount: 12
+    mPieces: 14
+    mColor: 0
+  - id: 9
+    mName: Love
+    mType: 7
+    mBg: {fileID: 21300000, guid: c7ade68a31f1d4e12a57617409b6ee8a, type: 3}
+    mIcon: {fileID: 21300000, guid: 8049098cf4e5c404e8be5063422edec1, type: 3}
+    mColors:
+    - {fileID: -1287457101693688248, guid: e92edc0841aa4493aaa7015641364d6f, type: 3}
+    - {fileID: -4182298532724466869, guid: e92edc0841aa4493aaa7015641364d6f, type: 3}
+    - {fileID: 8303251576884475927, guid: e92edc0841aa4493aaa7015641364d6f, type: 3}
+    - {fileID: 2607029507313113809, guid: e92edc0841aa4493aaa7015641364d6f, type: 3}
+    mPiecesCount: 0
+    mPieces: 14
+    mColor: 0
+  - id: 10
+    mName: Moon
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: b3e22d84b439f445d923aff2a80c9020, type: 3}
+    mColors:
+    - {fileID: 3956879212383700749, guid: 7cd6ec8efa6f84a2ebf0459c6e36851f, type: 3}
+    - {fileID: 6448673911590018617, guid: 7cd6ec8efa6f84a2ebf0459c6e36851f, type: 3}
+    - {fileID: 1008298680256411286, guid: 7cd6ec8efa6f84a2ebf0459c6e36851f, type: 3}
+    - {fileID: 3259781165669766653, guid: 7cd6ec8efa6f84a2ebf0459c6e36851f, type: 3}
+    mPiecesCount: 0
+    mPieces: 15
+    mColor: 0
+  - id: 11
+    mName: Pakistan
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: aa1af1a2eea5a4ba6b47d304c79dc6eb, type: 3}
+    mColors:
+    - {fileID: -4367102207221956688, guid: cf01fa9e21ed64defbb5333aded915c0, type: 3}
+    - {fileID: -3724776458877902247, guid: cf01fa9e21ed64defbb5333aded915c0, type: 3}
+    - {fileID: 8113086966832377275, guid: cf01fa9e21ed64defbb5333aded915c0, type: 3}
+    - {fileID: 295920226387970299, guid: cf01fa9e21ed64defbb5333aded915c0, type: 3}
+    mPiecesCount: 4
+    mPieces: 12
+    mColor: 0
+  - id: 12
+    mName: Skeleton
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: 0126303926e9241bc8fd32e5dd01d417, type: 3}
+    mColors:
+    - {fileID: -5651394369743572628, guid: d24114afb895b462bba33b9c635a8512, type: 3}
+    - {fileID: -7979352847993230961, guid: d24114afb895b462bba33b9c635a8512, type: 3}
+    - {fileID: -7692374520116341638, guid: d24114afb895b462bba33b9c635a8512, type: 3}
+    - {fileID: -9177043483336828427, guid: d24114afb895b462bba33b9c635a8512, type: 3}
+    mPiecesCount: 5
+    mPieces: 12
+    mColor: 0
+  - id: 13
+    mName: Sword
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: f6f98633391a648ce8baa651fe203fdc, type: 3}
+    mColors:
+    - {fileID: -3728538989951211573, guid: 7e0f78fabad334839b37ef3dcbd36ff1, type: 3}
+    - {fileID: 4945954634872989682, guid: 7e0f78fabad334839b37ef3dcbd36ff1, type: 3}
+    - {fileID: -6830276899408734324, guid: 7e0f78fabad334839b37ef3dcbd36ff1, type: 3}
+    - {fileID: -954136061847176642, guid: 7e0f78fabad334839b37ef3dcbd36ff1, type: 3}
+    mPiecesCount: 0
+    mPieces: 12
+    mColor: 0
+  - id: 14
+    mName: Wing
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: 10cf0309d94be47a9a4890051f906116, type: 3}
+    mColors:
+    - {fileID: -5303247421530120293, guid: d0d3b94da3f074e51bf850a4b2220e64, type: 3}
+    - {fileID: -6152695234932995532, guid: d0d3b94da3f074e51bf850a4b2220e64, type: 3}
+    - {fileID: 989318750866808377, guid: d0d3b94da3f074e51bf850a4b2220e64, type: 3}
+    - {fileID: -8086401240233500016, guid: d0d3b94da3f074e51bf850a4b2220e64, type: 3}
+    mPiecesCount: 0
+    mPieces: 14
+    mColor: 0
+  - id: 15
+    mName: VolleyBall
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: 69e4f1ce6e13d3548932b24bd4d7d5d0, type: 3}
+    mColors:
+    - {fileID: -5515383189529662604, guid: ddba6780e557046be852af1b65bbeb27, type: 3}
+    - {fileID: 6937817954938267909, guid: ddba6780e557046be852af1b65bbeb27, type: 3}
+    - {fileID: 5382512944479897801, guid: ddba6780e557046be852af1b65bbeb27, type: 3}
+    - {fileID: 3191122964850554743, guid: ddba6780e557046be852af1b65bbeb27, type: 3}
+    mPiecesCount: 19
+    mPieces: 15
+    mColor: 0
+  - id: 16
+    mName: Candy
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: 52b54496e64d5ec42a85109c71b3af45, type: 3}
+    mColors:
+    - {fileID: -5515383189529662604, guid: 7304d9d42f7ee4c68a71a44b6d6792d6, type: 3}
+    - {fileID: 6937817954938267909, guid: 7304d9d42f7ee4c68a71a44b6d6792d6, type: 3}
+    - {fileID: 5382512944479897801, guid: 7304d9d42f7ee4c68a71a44b6d6792d6, type: 3}
+    - {fileID: 3191122964850554743, guid: 7304d9d42f7ee4c68a71a44b6d6792d6, type: 3}
+    mPiecesCount: 0
+    mPieces: 15
+    mColor: 0
+  - id: 17
+    mName: Smilie
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: 41057c9cc9f149149841903a889e6f38, type: 3}
+    mColors:
+    - {fileID: -5515383189529662604, guid: f64fa2b83b23d4f2abc686977db17de5, type: 3}
+    - {fileID: 6937817954938267909, guid: f64fa2b83b23d4f2abc686977db17de5, type: 3}
+    - {fileID: 5382512944479897801, guid: f64fa2b83b23d4f2abc686977db17de5, type: 3}
+    - {fileID: 3191122964850554743, guid: f64fa2b83b23d4f2abc686977db17de5, type: 3}
+    mPiecesCount: 0
+    mPieces: 11
+    mColor: 0
+  - id: 18
+    mName: Strawberry
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: 1683611b325ff794083ed098423fec44, type: 3}
+    mColors:
+    - {fileID: -5515383189529662604, guid: a1463d7cc350f4097826a5465fab9435, type: 3}
+    - {fileID: 6937817954938267909, guid: a1463d7cc350f4097826a5465fab9435, type: 3}
+    - {fileID: 5382512944479897801, guid: a1463d7cc350f4097826a5465fab9435, type: 3}
+    - {fileID: 3191122964850554743, guid: a1463d7cc350f4097826a5465fab9435, type: 3}
+    mPiecesCount: 0
+    mPieces: 11
+    mColor: 0
+  - id: 19
+    mName: Apple
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: 2b55e39ef700dde4bb6289b822414c46, type: 3}
+    mColors:
+    - {fileID: -5515383189529662604, guid: 8d4771360b42f492f853412894912df6, type: 3}
+    - {fileID: 6937817954938267909, guid: 8d4771360b42f492f853412894912df6, type: 3}
+    - {fileID: 5382512944479897801, guid: 8d4771360b42f492f853412894912df6, type: 3}
+    - {fileID: 3191122964850554743, guid: 8d4771360b42f492f853412894912df6, type: 3}
+    mPiecesCount: 0
+    mPieces: 12
+    mColor: 0
+  - id: 20
+    mName: Dagger
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: 433f4956a0ce5104db8390293e8777d3, type: 3}
+    mColors:
+    - {fileID: -5515383189529662604, guid: e000f1c4e9b264e128dc2fca8df93c67, type: 3}
+    - {fileID: 6937817954938267909, guid: e000f1c4e9b264e128dc2fca8df93c67, type: 3}
+    - {fileID: 5382512944479897801, guid: e000f1c4e9b264e128dc2fca8df93c67, type: 3}
+    - {fileID: 3191122964850554743, guid: e000f1c4e9b264e128dc2fca8df93c67, type: 3}
+    mPiecesCount: 0
+    mPieces: 10
+    mColor: 0
+  - id: 21
+    mName: Star Candy
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: 4c2b4170ba902324aa8b9a83bdf607a2, type: 3}
+    mColors:
+    - {fileID: -5515383189529662604, guid: 3c5b33c9a00854393be0b934a1ca6fb2, type: 3}
+    - {fileID: 6937817954938267909, guid: 3c5b33c9a00854393be0b934a1ca6fb2, type: 3}
+    - {fileID: 5382512944479897801, guid: 3c5b33c9a00854393be0b934a1ca6fb2, type: 3}
+    - {fileID: 3191122964850554743, guid: 3c5b33c9a00854393be0b934a1ca6fb2, type: 3}
+    mPiecesCount: 0
+    mPieces: 16
+    mColor: 0
+  - id: 22
+    mName: Donut
+    mType: 0
+    mBg: {fileID: 21300000, guid: dd77367546bf4433dbbb2317a935df54, type: 3}
+    mIcon: {fileID: 21300000, guid: b41b8b5cfe50c0749985b7d5594d9368, type: 3}
+    mColors:
+    - {fileID: -5515383189529662604, guid: be9196066b2d548b6939e58182dd1da3, type: 3}
+    - {fileID: 6937817954938267909, guid: be9196066b2d548b6939e58182dd1da3, type: 3}
+    - {fileID: 5382512944479897801, guid: be9196066b2d548b6939e58182dd1da3, type: 3}
+    - {fileID: 3191122964850554743, guid: be9196066b2d548b6939e58182dd1da3, type: 3}
+    mPiecesCount: 0
+    mPieces: 14
+    mColor: 0
+  mChests:
+  - mId: CH-0-637965076968877640
+    mSlot: 3
+    mName: Bronze Chest
+    mType: 0
+    mState: 0
+    mCoins: 250
+    mGmes: 0
+    mPieces: 8
+    TimerMaxHours: 3
+    TimerMaxMinutes: 0
+    TimerMaxSeconds: 0
+    UnLockGems: 20
+    BuyGems: 100
+    mIcon: {fileID: 21300000, guid: da60f3f4efdfb20438d2bb08b28f222f, type: 3}
+    mOpenAnimation:
+    - {fileID: 21300000, guid: da60f3f4efdfb20438d2bb08b28f222f, type: 3}
+    - {fileID: 21300000, guid: 0e3bb0cbb49419b4ab41a452c60577f2, type: 3}
+    - {fileID: 21300000, guid: 0275727f1ec502f45ab075261a004a9c, type: 3}
+    - {fileID: 21300000, guid: 2e4fe61be2535bd4caffe8f875620712, type: 3}
+    mCloseAnimation:
+    - {fileID: 21300000, guid: 2e4fe61be2535bd4caffe8f875620712, type: 3}
+    - {fileID: 21300000, guid: 0275727f1ec502f45ab075261a004a9c, type: 3}
+    - {fileID: 21300000, guid: 0e3bb0cbb49419b4ab41a452c60577f2, type: 3}
+    - {fileID: 21300000, guid: da60f3f4efdfb20438d2bb08b28f222f, type: 3}
+  - mId: Silver Chest
+    mSlot: 1
+    mName: Silver Chest
+    mType: 1
+    mState: 0
+    mCoins: 1000
+    mGmes: 30
+    mPieces: 12
+    TimerMaxHours: 8
+    TimerMaxMinutes: 0
+    TimerMaxSeconds: 0
+    UnLockGems: 30
+    BuyGems: 100
+    mIcon: {fileID: 21300000, guid: 46cecab737480d041b4945c2c02f090a, type: 3}
+    mOpenAnimation:
+    - {fileID: 21300000, guid: 46cecab737480d041b4945c2c02f090a, type: 3}
+    - {fileID: 21300000, guid: f6e1bdb468d81f34b86acdabf76b65b4, type: 3}
+    - {fileID: 21300000, guid: afa53f77923fc684ab13ed50c805df50, type: 3}
+    - {fileID: 21300000, guid: 5629c55c6cf36a944acb94a80a9ab53f, type: 3}
+    mCloseAnimation:
+    - {fileID: 21300000, guid: 5629c55c6cf36a944acb94a80a9ab53f, type: 3}
+    - {fileID: 21300000, guid: afa53f77923fc684ab13ed50c805df50, type: 3}
+    - {fileID: 21300000, guid: f6e1bdb468d81f34b86acdabf76b65b4, type: 3}
+    - {fileID: 21300000, guid: 46cecab737480d041b4945c2c02f090a, type: 3}
+  - mId: Gold Chest
+    mSlot: 1
+    mName: Gold Chest
+    mType: 2
+    mState: 0
+    mCoins: 3000
+    mGmes: 50
+    mPieces: 8
+    TimerMaxHours: 12
+    TimerMaxMinutes: 0
+    TimerMaxSeconds: 0
+    UnLockGems: 40
+    BuyGems: 100
+    mIcon: {fileID: 21300000, guid: e18dfb4c54a8f894e8e37b1560331f7c, type: 3}
+    mOpenAnimation:
+    - {fileID: 21300000, guid: e18dfb4c54a8f894e8e37b1560331f7c, type: 3}
+    - {fileID: 21300000, guid: 53dce18e4c281bf46a01c9808ee65914, type: 3}
+    - {fileID: 21300000, guid: c56616a79964b554b8d3cec1f933e441, type: 3}
+    - {fileID: 21300000, guid: 305d1911debcca345906c07a83b0e12d, type: 3}
+    mCloseAnimation:
+    - {fileID: 21300000, guid: 305d1911debcca345906c07a83b0e12d, type: 3}
+    - {fileID: 21300000, guid: c56616a79964b554b8d3cec1f933e441, type: 3}
+    - {fileID: 21300000, guid: 53dce18e4c281bf46a01c9808ee65914, type: 3}
+    - {fileID: 21300000, guid: e18dfb4c54a8f894e8e37b1560331f7c, type: 3}
+  - mId: CH-3-638052323184727381
+    mSlot: 0
+    mName: Premium Chest
+    mType: 3
+    mState: 2
+    mCoins: 10000
+    mGmes: 30
+    mPieces: 30
+    TimerMaxHours: 0
+    TimerMaxMinutes: 0
+    TimerMaxSeconds: 0
+    UnLockGems: 50
+    BuyGems: 100
+    mIcon: {fileID: 21300000, guid: 06dddbddcec7e8849ab2703a89deb125, type: 3}
+    mOpenAnimation:
+    - {fileID: 21300000, guid: 06dddbddcec7e8849ab2703a89deb125, type: 3}
+    - {fileID: 21300000, guid: 8c59bb7fc73091447bba4f7a067780a0, type: 3}
+    - {fileID: 21300000, guid: 7474c214e3910ad49af0709d2079847d, type: 3}
+    - {fileID: 21300000, guid: 85ca92499758bdb4887b6bf196d99d0f, type: 3}
+    mCloseAnimation:
+    - {fileID: 21300000, guid: 85ca92499758bdb4887b6bf196d99d0f, type: 3}
+    - {fileID: 21300000, guid: 7474c214e3910ad49af0709d2079847d, type: 3}
+    - {fileID: 21300000, guid: 8c59bb7fc73091447bba4f7a067780a0, type: 3}
+    - {fileID: 21300000, guid: 06dddbddcec7e8849ab2703a89deb125, type: 3}
+  - mId: CH-4-637964043977987790
+    mSlot: 0
+    mName: Master Chest
+    mType: 4
+    mState: 2
+    mCoins: 20000
+    mGmes: 80
+    mPieces: 50
+    TimerMaxHours: 0
+    TimerMaxMinutes: 0
+    TimerMaxSeconds: 0
+    UnLockGems: 80
+    BuyGems: 200
+    mIcon: {fileID: 21300000, guid: ea2354edd6600b44dae7f61b37b7f8d3, type: 3}
+    mOpenAnimation:
+    - {fileID: 21300000, guid: ea2354edd6600b44dae7f61b37b7f8d3, type: 3}
+    - {fileID: 21300000, guid: 7fcc2d26617714c4bb497db01bde9b32, type: 3}
+    - {fileID: 21300000, guid: a6e90ec4f0fd9ae418112b8723d7164d, type: 3}
+    - {fileID: 21300000, guid: 8a053acc537fdee47b1295be66f5ef39, type: 3}
+    mCloseAnimation:
+    - {fileID: 21300000, guid: 8a053acc537fdee47b1295be66f5ef39, type: 3}
+    - {fileID: 21300000, guid: a6e90ec4f0fd9ae418112b8723d7164d, type: 3}
+    - {fileID: 21300000, guid: 7fcc2d26617714c4bb497db01bde9b32, type: 3}
+    - {fileID: 21300000, guid: ea2354edd6600b44dae7f61b37b7f8d3, type: 3}
+  - mId: CH-5-637964043575672080
+    mSlot: 0
+    mName: Grand Master Chest
+    mType: 5
+    mState: 2
+    mCoins: 50000
+    mGmes: 150
+    mPieces: 70
+    TimerMaxHours: 0
+    TimerMaxMinutes: 0
+    TimerMaxSeconds: 0
+    UnLockGems: 100
+    BuyGems: 500
+    mIcon: {fileID: 21300000, guid: 92e1dd54bdb598541aa72698bb8cab58, type: 3}
+    mOpenAnimation:
+    - {fileID: 21300000, guid: 92e1dd54bdb598541aa72698bb8cab58, type: 3}
+    - {fileID: 21300000, guid: f9fe91221c466c24a9bb681dbd1c42cd, type: 3}
+    - {fileID: 21300000, guid: 4e3891672952ea14ebf10a2d37d5c1bc, type: 3}
+    - {fileID: 21300000, guid: f4f3e9c4436ee5e489f27e2d11ffed88, type: 3}
+    mCloseAnimation:
+    - {fileID: 21300000, guid: f4f3e9c4436ee5e489f27e2d11ffed88, type: 3}
+    - {fileID: 21300000, guid: 4e3891672952ea14ebf10a2d37d5c1bc, type: 3}
+    - {fileID: 21300000, guid: f9fe91221c466c24a9bb681dbd1c42cd, type: 3}
+    - {fileID: 21300000, guid: 92e1dd54bdb598541aa72698bb8cab58, type: 3}
+  rankBadges:
+  - {fileID: 21300000, guid: a23a57be640054bf08deecbc33c70a5e, type: 3}
+  - {fileID: 21300000, guid: feecf4d4b8589444583ba7b82bb10df1, type: 3}
+  - {fileID: 21300000, guid: 49e30966db36048eb9f24d2d19408a60, type: 3}
+  - {fileID: 21300000, guid: 44fdb2fe54269466f8b0b810c0e57f86, type: 3}
+  - {fileID: 21300000, guid: cb0a53cb30cb344dc83d0edaf2908814, type: 3}
+  - {fileID: 21300000, guid: 1b43931083419491d8b290f0c1fad04b, type: 3}
+  - {fileID: 21300000, guid: 6a1f2ec1b291243919959448562d19aa, type: 3}
+  - {fileID: 21300000, guid: 3794f280dbc1a43e0b04594ca6a1a998, type: 3}
+  - {fileID: 21300000, guid: 2e183644dd9934909a322a922b1fd9d6, type: 3}
+  - {fileID: 21300000, guid: 5a60a22fdf46b45e39da7a7c4f5faf29, type: 3}
+  - {fileID: 21300000, guid: 853662310f40c4441ac92b289696d5fb, type: 3}
+  - {fileID: 21300000, guid: c5b2bfcee21334c9299d2fc29e6e97b7, type: 3}
+  - {fileID: 21300000, guid: ea56886a0756e4ca5807ba8864a5ab99, type: 3}
+  - {fileID: 21300000, guid: 5a36810d1804242c3be00c9ed59fbc83, type: 3}
+  - {fileID: 21300000, guid: bb67e2020cf1c48f5aac820c290ca5f8, type: 3}
+  - {fileID: 21300000, guid: 6c3bc4b6f625e44598bc2c6849eb9a35, type: 3}
+  rankNames:
+  - Beginner
+  - Trainee
+  - Explorer
+  - Hero
+  - Veteran
+  - Guru
+  - Lord
+  - Champion
+  - Elite
+  - Super Star
+  - Celebrity
+  - Phenomenon
+  - Legend
+  RegionNames:
+  - Islamabad Club
+  - Delhi Lounge
+  - Tokyo Arena
+  - London Palace
+  - Paris Galary
+  - Istanbul Theatre
+  - New York Park
+  - Hong Kong Stage
+  emojis:
+  - {fileID: 21300000, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300002, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300004, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300006, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300010, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300012, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300014, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300016, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300018, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300020, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300022, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300024, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300026, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300028, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300030, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300032, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300034, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300036, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300038, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300040, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300042, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300044, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300046, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300048, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300050, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300052, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300054, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300056, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300058, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300060, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300062, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300064, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300066, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300068, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300070, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300072, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300074, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300076, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300078, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300080, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300082, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300084, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300086, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300088, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300090, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300092, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300094, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300096, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300098, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300100, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300102, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300104, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300106, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300108, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300110, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300112, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300114, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300116, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300118, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300120, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300122, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300124, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300126, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300128, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300130, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300132, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300134, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300136, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300138, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300140, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  - {fileID: 21300142, guid: 4982d02d4bd0149859c41a75caa1addf, type: 3}
+  LANGUAGES_LIST:
+  - English
+  - Europe
+  - Arab
+  - Africa
+  - English
+  - US
+  - Japan
+  - Indea
+  - Europe
+  - Arab
+  - Africa
+  - English
+  - US
+  - Japan
+  - Indea
+  - Europe
+  - Arab
+  - Africa
+  - English
+  - US
+  - Japan
+  - Indea
+  bidCards:
+  - mId: 0
+    mName: Delhi Lounge
+    logo: {fileID: 21300000, guid: fc50b2084e4af4f8b934933733e6c8fc, type: 3}
+    entryFee: 500
+  - mId: 1
+    mName: Hong Kong Stage
+    logo: {fileID: 21300000, guid: fdf3365e6303a4c36b5eaa09cb6a3647, type: 3}
+    entryFee: 1000
+  - mId: 2
+    mName: Istanbul Theatre
+    logo: {fileID: 21300000, guid: d42410bef9fed4e87b016b44eafbebb2, type: 3}
+    entryFee: 1500
+  - mId: 3
+    mName: Tokyo Arena
+    logo: {fileID: 21300000, guid: f99f6d0ee1ed94f52bd8bad8bae69a43, type: 3}
+    entryFee: 2000
+  - mId: 4
+    mName: London Palace
+    logo: {fileID: 21300000, guid: 9daf41d60f68c48db9e7af13e4b26dc5, type: 3}
+    entryFee: 2500
+  - mId: 5
+    mName: Paris Galary
+    logo: {fileID: 21300000, guid: 799c62d12c37b4540ae271585b51ae3c, type: 3}
+    entryFee: 3000
+  - mId: 6
+    mName: New York Park
+    logo: {fileID: 21300000, guid: 515e48e99e6034e1a8f8d231de9a1643, type: 3}
+    entryFee: 4000
+  - mId: 7
+    mName: Islamabad Club
+    logo: {fileID: 21300000, guid: fc3ed1ec12d8a49fa928c671bca5a235, type: 3}
+    entryFee: 5000
+  InAppItems:
+  - mId: ludo.gems.pack_1
+    mName: Bunch of Gems
+    productType: 0
+    mPrice: $1.99
+    mQuantity: 200
+    mItemType: 1
+    mStore: GP
+  - mId: ludo.gems.pack_2
+    mName: Pile of Gems
+    productType: 0
+    mPrice: $3.99
+    mQuantity: 500
+    mItemType: 1
+    mStore: GP
+  - mId: ludo.gems.pack_3
+    mName: Bag of Gems
+    productType: 0
+    mPrice: $9.99
+    mQuantity: 1500
+    mItemType: 1
+    mStore: GP
+  - mId: ludo.gems.pack_4
+    mName: Sack of Gems
+    productType: 0
+    mPrice: $19.99
+    mQuantity: 3000
+    mItemType: 1
+    mStore: GP
+  - mId: ludo.gems.pack_5
+    mName: Vault of Gems
+    productType: 0
+    mPrice: $49.99
+    mQuantity: 10000
+    mItemType: 1
+    mStore: GP
+  - mId: ludo.remove.ads
+    mName: Remove Ads
+    productType: 1
+    mPrice: $9.99
+    mQuantity: 0
+    mItemType: 3
+    mStore: GP
+  - mId: ludo.gems.discount_1
+    mName: Discount Gems Offer
+    productType: 0
+    mPrice: $0.99
+    mQuantity: 500
+    mItemType: 1
+    mStore: GP
+  - mId: ludo.coins.discount_1
+    mName: Discount Coins Offer
+    productType: 0
+    mPrice: $0.99
+    mQuantity: 5000
+    mItemType: 0
+    mStore: GP
+  - mId: ludo.gems.pack_1
+    mName: Bunch of Gems
+    productType: 0
+    mPrice: $1.99
+    mQuantity: 200
+    mItemType: 1
+    mStore: ios
+  - mId: ludo.gems.pack_2
+    mName: Pile of Gems
+    productType: 0
+    mPrice: $3.99
+    mQuantity: 500
+    mItemType: 1
+    mStore: ios
+  - mId: ludo.gems.pack_3
+    mName: Bag of Gems
+    productType: 0
+    mPrice: $9.99
+    mQuantity: 1500
+    mItemType: 1
+    mStore: ios
+  - mId: ludo.gems.pack_4
+    mName: Sack of Gems
+    productType: 0
+    mPrice: $19.99
+    mQuantity: 3000
+    mItemType: 1
+    mStore: ios
+  - mId: ludo.gems.pack_5
+    mName: Vault of Gems
+    productType: 0
+    mPrice: $49.99
+    mQuantity: 10000
+    mItemType: 1
+    mStore: ios
+  - mId: ludo.remove.ads
+    mName: Remove Ads
+    productType: 1
+    mPrice: $9.99
+    mQuantity: 0
+    mItemType: 3
+    mStore: ios
+  - mId: ludo.gems.discount_1
+    mName: Discount Gems Offer
+    productType: 0
+    mPrice: $0.99
+    mQuantity: 500
+    mItemType: 1
+    mStore: ios
+  - mId: ludo.coins.discount_1
+    mName: Discount Coins Offer
+    productType: 0
+    mPrice: $0.99
+    mQuantity: 5000
+    mItemType: 0
+    mStore: ios
+  TimerMaxHours: 3
+  TimerMaxMinutes: 0
+  TimerMaxSeconds: 0
+  adTimerMaxHours: 24
+  adTimerMaxMinutes: 0
+  adTimerMaxSeconds: 0
+  modeIcons:
+  - {fileID: 21300000, guid: 4dca23c979d392446a000ad3f2914d43, type: 3}
+  - {fileID: 21300000, guid: ea79018d606aa284c998f83130340b12, type: 3}
+  - {fileID: 21300000, guid: e5e87364a19fb8240b5e461a831b6734, type: 3}

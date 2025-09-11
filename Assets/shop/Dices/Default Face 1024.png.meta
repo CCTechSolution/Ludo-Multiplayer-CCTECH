@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: d63862ed7ce7d45db8cc9d91b1fe834f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5989550392324835275
+    second: Default Face 1024_0
+  - first:
+      213: -7262416489876435760
+    second: Default Face 1024_1
+  - first:
+      213: -5090610877321038023
+    second: Default Face 1024_2
+  - first:
+      213: -4767825902328496963
+    second: Default Face 1024_3
+  - first:
+      213: 6292252190415028710
+    second: Default Face 1024_4
+  - first:
+      213: -6993019570420021294
+    second: Default Face 1024_5
+  - first:
+      213: -1454918061850817175
+    second: Default Face 1024_6
+  - first:
+      213: -1509748863638223499
+    second: Default Face 1024_7
+  - first:
+      213: 2155285562908803849
+    second: Default Face 1024_8
+  - first:
+      213: -4857538386753053206
+    second: Default Face 1024_9
+  - first:
+      213: -1186850144094825793
+    second: Default Face 1024_10
+  - first:
+      213: -5306636298239598798
+    second: Default Face 1024_11
+  - first:
+      213: 1379785428243185978
+    second: Default Face 1024_12
+  - first:
+      213: 4542362637977729854
+    second: Default Face 1024_13
+  - first:
+      213: 6929904712262010054
+    second: Default Face 1024_14
+  - first:
+      213: 3159854288267442744
+    second: Default Face 1024_15
+  - first:
+      213: -7843579051783433330
+    second: Default Face 1024_16
+  - first:
+      213: 1828061692250926265
+    second: Default Face 1024_17
+  - first:
+      213: 6142775176857247279
+    second: Default Face 1024_18
+  - first:
+      213: -7037207449614127111
+    second: Default Face 1024_19
+  - first:
+      213: 4555100528742088155
+    second: Default Face 1024_20
+  - first:
+      213: -5312611170126973953
+    second: Default Face 1024_21
+  - first:
+      213: -318234110614753964
+    second: Default Face 1024_22
+  - first:
+      213: -7702535844877958233
+    second: Default Face 1024_23
+  - first:
+      213: -4268564077799371815
+    second: Default Face 1024_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Default Face 1024_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 870
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7c2da09582f1350800000000000000
+      internalID: 5989550392324835275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 859
+        width: 127
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcc9fd2ea6b63b90800000000000000
+      internalID: -7262416489876435760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_2
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 855
+        width: 140
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9373a87d0648a59b0800000000000000
+      internalID: -5090610877321038023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_3
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 856
+        width: 134
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcbdc45a9745ddb0800000000000000
+      internalID: -4767825902328496963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_4
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 855
+        width: 145
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e18cd68702925750800000000000000
+      internalID: 6292252190415028710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 642
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d782c550cdc3fe90800000000000000
+      internalID: -6993019570420021294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_6
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 641
+        width: 144
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d05123bb71fcbe0800000000000000
+      internalID: -1454918061850817175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_7
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 640
+        width: 158
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5754bc2586b4c0be0800000000000000
+      internalID: -1509748863638223499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_8
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 631
+        width: 178
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90305bedccc19ed10800000000000000
+      internalID: 2155285562908803849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_9
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 623
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed92c6d29e869cb0800000000000000
+      internalID: -4857538386753053206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 428
+        width: 177
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb25b970516778fe0800000000000000
+      internalID: -1186850144094825793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 412
+        width: 189
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f1c3b076a0b56b0800000000000000
+      internalID: -5306636298239598798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_12
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 420
+        width: 188
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3102bc598bf52310800000000000000
+      internalID: 1379785428243185978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_13
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 429
+        width: 186
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b3ba5b0c6b90f30800000000000000
+      internalID: 4542362637977729854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_14
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 422
+        width: 177
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4cead9e97fb2060800000000000000
+      internalID: 6929904712262010054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 214
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83afc2acbbe0adb20800000000000000
+      internalID: 3159854288267442744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_16
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 218
+        width: 178
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83d0c2d862062390800000000000000
+      internalID: -7843579051783433330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_17
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 230
+        width: 157
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcad127c649e5910800000000000000
+      internalID: 1828061692250926265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_18
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 240
+        width: 144
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ed9af3a758f3550800000000000000
+      internalID: 6142775176857247279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_19
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 228
+        width: 153
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff640bfb11d65e90800000000000000
+      internalID: -7037207449614127111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_20
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 30
+        width: 145
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddbdd30cc7f63f30800000000000000
+      internalID: 4555100528742088155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_21
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 37
+        width: 134
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff33fc6c940d546b0800000000000000
+      internalID: -5312611170126973953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_22
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 34
+        width: 140
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d256133c7659bf0800000000000000
+      internalID: -318234110614753964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_23
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 44
+        width: 127
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3065875781b1590800000000000000
+      internalID: -7702535844877958233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Default Face 1024_24
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 51
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db86c9469303c4c0800000000000000
+      internalID: -4268564077799371815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 705481d694526477b81f1b80a428a0ca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Default Face 1024_0: 5989550392324835275
+      Default Face 1024_1: -7262416489876435760
+      Default Face 1024_10: -1186850144094825793
+      Default Face 1024_11: -5306636298239598798
+      Default Face 1024_12: 1379785428243185978
+      Default Face 1024_13: 4542362637977729854
+      Default Face 1024_14: 6929904712262010054
+      Default Face 1024_15: 3159854288267442744
+      Default Face 1024_16: -7843579051783433330
+      Default Face 1024_17: 1828061692250926265
+      Default Face 1024_18: 6142775176857247279
+      Default Face 1024_19: -7037207449614127111
+      Default Face 1024_2: -5090610877321038023
+      Default Face 1024_20: 4555100528742088155
+      Default Face 1024_21: -5312611170126973953
+      Default Face 1024_22: -318234110614753964
+      Default Face 1024_23: -7702535844877958233
+      Default Face 1024_24: -4268564077799371815
+      Default Face 1024_3: -4767825902328496963
+      Default Face 1024_4: 6292252190415028710
+      Default Face 1024_5: -6993019570420021294
+      Default Face 1024_6: -1454918061850817175
+      Default Face 1024_7: -1509748863638223499
+      Default Face 1024_8: 2155285562908803849
+      Default Face 1024_9: -4857538386753053206
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

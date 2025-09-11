@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 1e48e1336a1b941b6a06bdc014dc7651
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8906554915382837414
+    second: Gold 1024_0
+  - first:
+      213: 2760386653932425458
+    second: Gold 1024_1
+  - first:
+      213: 5310404147188324005
+    second: Gold 1024_2
+  - first:
+      213: -1079660220312355647
+    second: Gold 1024_3
+  - first:
+      213: 7972488995702866157
+    second: Gold 1024_4
+  - first:
+      213: -5545664497321190347
+    second: Gold 1024_5
+  - first:
+      213: 1874256225300886358
+    second: Gold 1024_6
+  - first:
+      213: -2522683784305435453
+    second: Gold 1024_7
+  - first:
+      213: -9192098607786849101
+    second: Gold 1024_8
+  - first:
+      213: 5949348778107423913
+    second: Gold 1024_9
+  - first:
+      213: -3103544621207245090
+    second: Gold 1024_10
+  - first:
+      213: 1212186437163805378
+    second: Gold 1024_11
+  - first:
+      213: 4448155790545462038
+    second: Gold 1024_12
+  - first:
+      213: -4011998877183404202
+    second: Gold 1024_13
+  - first:
+      213: 2095959616243219228
+    second: Gold 1024_14
+  - first:
+      213: -8625960887082193273
+    second: Gold 1024_15
+  - first:
+      213: -2665302190497665629
+    second: Gold 1024_16
+  - first:
+      213: -7428416692187769243
+    second: Gold 1024_17
+  - first:
+      213: 1843502958252277270
+    second: Gold 1024_18
+  - first:
+      213: 6334938015351673656
+    second: Gold 1024_19
+  - first:
+      213: 2245012205371100455
+    second: Gold 1024_20
+  - first:
+      213: -7267086075153446930
+    second: Gold 1024_21
+  - first:
+      213: -6085275937232884033
+    second: Gold 1024_22
+  - first:
+      213: -4764445085367757568
+    second: Gold 1024_23
+  - first:
+      213: 4283863330000001040
+    second: Gold 1024_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gold 1024_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 870
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fb8105e7f856480800000000000000
+      internalID: -8906554915382837414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 859
+        width: 127
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f01f5e590dde4620800000000000000
+      internalID: 2760386653932425458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_2
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 855
+        width: 140
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6dbe6af6852b940800000000000000
+      internalID: 5310404147188324005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_3
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 856
+        width: 134
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc792affb64401f0800000000000000
+      internalID: -1079660220312355647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_4
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 855
+        width: 145
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de084946088f3ae60800000000000000
+      internalID: 7972488995702866157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 642
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cdca99587d903b0800000000000000
+      internalID: -5545664497321190347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_6
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 641
+        width: 144
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653bf1f4b12b20a10800000000000000
+      internalID: 1874256225300886358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_7
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 640
+        width: 158
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc16d3c670adfcd0800000000000000
+      internalID: -2522683784305435453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_8
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 631
+        width: 178
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc808e940b1f6080800000000000000
+      internalID: -9192098607786849101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_9
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 623
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac4ff35135509250800000000000000
+      internalID: 5949348778107423913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 428
+        width: 177
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede2e5c3c9efde4d0800000000000000
+      internalID: -3103544621207245090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 412
+        width: 189
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cae1b4642d82d010800000000000000
+      internalID: 1212186437163805378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_12
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 420
+        width: 188
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6132f09cf160bbd30800000000000000
+      internalID: 4448155790545462038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_13
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 429
+        width: 186
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657973617448258c0800000000000000
+      internalID: -4011998877183404202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_14
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 422
+        width: 177
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bbdb58a28561d10800000000000000
+      internalID: 2095959616243219228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 214
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e6d07864e6a4880800000000000000
+      internalID: -8625960887082193273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_16
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 218
+        width: 178
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ade05477c1f20bd0800000000000000
+      internalID: -2665302190497665629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_17
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 230
+        width: 157
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566d09a3066f8e890800000000000000
+      internalID: -7428416692187769243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_18
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 240
+        width: 144
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e32095c20759910800000000000000
+      internalID: 1843502958252277270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_19
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 228
+        width: 153
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833972f9f883ae750800000000000000
+      internalID: 6334938015351673656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_20
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 30
+        width: 145
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d8f89c4b2e72f10800000000000000
+      internalID: 2245012205371100455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_21
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 37
+        width: 134
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee78a42a7bf162b90800000000000000
+      internalID: -7267086075153446930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_22
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 34
+        width: 140
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe6009b6c1cc8ba0800000000000000
+      internalID: -6085275937232884033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_23
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 44
+        width: 127
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0059cce107a41edb0800000000000000
+      internalID: -4764445085367757568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold 1024_24
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 51
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018d8f27007537b30800000000000000
+      internalID: 4283863330000001040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f46fd088d21d84db7a40f1670493b154
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gold 1024_0: -8906554915382837414
+      Gold 1024_1: 2760386653932425458
+      Gold 1024_10: -3103544621207245090
+      Gold 1024_11: 1212186437163805378
+      Gold 1024_12: 4448155790545462038
+      Gold 1024_13: -4011998877183404202
+      Gold 1024_14: 2095959616243219228
+      Gold 1024_15: -8625960887082193273
+      Gold 1024_16: -2665302190497665629
+      Gold 1024_17: -7428416692187769243
+      Gold 1024_18: 1843502958252277270
+      Gold 1024_19: 6334938015351673656
+      Gold 1024_2: 5310404147188324005
+      Gold 1024_20: 2245012205371100455
+      Gold 1024_21: -7267086075153446930
+      Gold 1024_22: -6085275937232884033
+      Gold 1024_23: -4764445085367757568
+      Gold 1024_24: 4283863330000001040
+      Gold 1024_3: -1079660220312355647
+      Gold 1024_4: 7972488995702866157
+      Gold 1024_5: -5545664497321190347
+      Gold 1024_6: 1874256225300886358
+      Gold 1024_7: -2522683784305435453
+      Gold 1024_8: -9192098607786849101
+      Gold 1024_9: 5949348778107423913
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

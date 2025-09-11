@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 62094d8fd2b6540ca8dde6431fec8398
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2371980416422081502
+    second: Cricket_Spritesheet 1024_0
+  - first:
+      213: 8142810218428152573
+    second: Cricket_Spritesheet 1024_1
+  - first:
+      213: 2063402694218467681
+    second: Cricket_Spritesheet 1024_2
+  - first:
+      213: -2786016614620429049
+    second: Cricket_Spritesheet 1024_3
+  - first:
+      213: 2653035161139311074
+    second: Cricket_Spritesheet 1024_4
+  - first:
+      213: 532759579950507457
+    second: Cricket_Spritesheet 1024_5
+  - first:
+      213: 8918343782560850365
+    second: Cricket_Spritesheet 1024_6
+  - first:
+      213: 3420809899051951621
+    second: Cricket_Spritesheet 1024_7
+  - first:
+      213: -6953693594506074849
+    second: Cricket_Spritesheet 1024_8
+  - first:
+      213: -1302583847969240557
+    second: Cricket_Spritesheet 1024_9
+  - first:
+      213: 4614295267753374388
+    second: Cricket_Spritesheet 1024_10
+  - first:
+      213: -6656665886694659023
+    second: Cricket_Spritesheet 1024_11
+  - first:
+      213: 7558688814397467690
+    second: Cricket_Spritesheet 1024_12
+  - first:
+      213: -88961932062747286
+    second: Cricket_Spritesheet 1024_13
+  - first:
+      213: 7354420335556058423
+    second: Cricket_Spritesheet 1024_14
+  - first:
+      213: 1645295583192082935
+    second: Cricket_Spritesheet 1024_15
+  - first:
+      213: 6317301641359872160
+    second: Cricket_Spritesheet 1024_16
+  - first:
+      213: 2967400847447092882
+    second: Cricket_Spritesheet 1024_17
+  - first:
+      213: -2520852310213171133
+    second: Cricket_Spritesheet 1024_18
+  - first:
+      213: -6443168574378612090
+    second: Cricket_Spritesheet 1024_19
+  - first:
+      213: -4962769675427199268
+    second: Cricket_Spritesheet 1024_20
+  - first:
+      213: 4919439659533820305
+    second: Cricket_Spritesheet 1024_21
+  - first:
+      213: -3318988482215060639
+    second: Cricket_Spritesheet 1024_22
+  - first:
+      213: -2069985415141449829
+    second: Cricket_Spritesheet 1024_23
+  - first:
+      213: 426110748572977211
+    second: Cricket_Spritesheet 1024_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 867
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c8af8e068051fd0800000000000000
+      internalID: -2371980416422081502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_1
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 855
+        width: 130
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfab4de40c2110170800000000000000
+      internalID: 8142810218428152573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 853
+        width: 144
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169c97961dda2ac10800000000000000
+      internalID: 2063402694218467681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_3
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 853
+        width: 136
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705863366a41659d0800000000000000
+      internalID: -2786016614620429049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_4
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 853
+        width: 151
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e174543c6971d420800000000000000
+      internalID: 2653035161139311074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_5
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 639
+        width: 158
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5e2a9e30eb46700800000000000000
+      internalID: 532759579950507457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 639
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db16a583b6254cb70800000000000000
+      internalID: 8918343782560850365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_7
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 641
+        width: 159
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506a12d9a78297f20800000000000000
+      internalID: 3420809899051951621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_8
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 629
+        width: 185
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f156e8e94848f7f90800000000000000
+      internalID: -6953693594506074849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_9
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 621
+        width: 191
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ac1a344ea4cede0800000000000000
+      internalID: -1302583847969240557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 429
+        width: 182
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2b4333915490040800000000000000
+      internalID: 4614295267753374388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_11
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 413
+        width: 190
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13caa1305a5ce93a0800000000000000
+      internalID: -6656665886694659023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_12
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 417
+        width: 194
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c21e5dd6bd5e860800000000000000
+      internalID: 7558688814397467690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_13
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 427
+        width: 190
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a651ed81891f3cef0800000000000000
+      internalID: -88961932062747286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_14
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 419
+        width: 182
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d5abd6456201660800000000000000
+      internalID: 7354420335556058423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_15
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 211
+        width: 193
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9eea2ad9345d610800000000000000
+      internalID: 1645295583192082935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_16
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 215
+        width: 185
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a05f305f509ba750800000000000000
+      internalID: 6317301641359872160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_17
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 227
+        width: 158
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ee64a49535e2920800000000000000
+      internalID: 2967400847447092882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_18
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 237
+        width: 153
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348658e0e22240dd0800000000000000
+      internalID: -2520852310213171133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_19
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 229
+        width: 156
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ae338a1544596a0800000000000000
+      internalID: -6443168574378612090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 27
+        width: 150
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6c41a2643b02bb0800000000000000
+      internalID: -4962769675427199268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_21
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 35
+        width: 136
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1916b785e4c554440800000000000000
+      internalID: 4919439659533820305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_22
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 32
+        width: 146
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b55f76f8590f1d0800000000000000
+      internalID: -3318988482215060639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_23
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 41
+        width: 130
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f11407b3fe543e0800000000000000
+      internalID: -2069985415141449829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cricket_Spritesheet 1024_24
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 47
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b380babd779d9e500800000000000000
+      internalID: 426110748572977211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1a7d199836de442a4b12c06654dc21b9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cricket_Spritesheet 1024_0: -2371980416422081502
+      Cricket_Spritesheet 1024_1: 8142810218428152573
+      Cricket_Spritesheet 1024_10: 4614295267753374388
+      Cricket_Spritesheet 1024_11: -6656665886694659023
+      Cricket_Spritesheet 1024_12: 7558688814397467690
+      Cricket_Spritesheet 1024_13: -88961932062747286
+      Cricket_Spritesheet 1024_14: 7354420335556058423
+      Cricket_Spritesheet 1024_15: 1645295583192082935
+      Cricket_Spritesheet 1024_16: 6317301641359872160
+      Cricket_Spritesheet 1024_17: 2967400847447092882
+      Cricket_Spritesheet 1024_18: -2520852310213171133
+      Cricket_Spritesheet 1024_19: -6443168574378612090
+      Cricket_Spritesheet 1024_2: 2063402694218467681
+      Cricket_Spritesheet 1024_20: -4962769675427199268
+      Cricket_Spritesheet 1024_21: 4919439659533820305
+      Cricket_Spritesheet 1024_22: -3318988482215060639
+      Cricket_Spritesheet 1024_23: -2069985415141449829
+      Cricket_Spritesheet 1024_24: 426110748572977211
+      Cricket_Spritesheet 1024_3: -2786016614620429049
+      Cricket_Spritesheet 1024_4: 2653035161139311074
+      Cricket_Spritesheet 1024_5: 532759579950507457
+      Cricket_Spritesheet 1024_6: 8918343782560850365
+      Cricket_Spritesheet 1024_7: 3420809899051951621
+      Cricket_Spritesheet 1024_8: -6953693594506074849
+      Cricket_Spritesheet 1024_9: -1302583847969240557
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

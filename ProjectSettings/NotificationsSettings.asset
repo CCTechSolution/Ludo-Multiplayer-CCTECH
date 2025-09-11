@@ -1,0 +1,547 @@
+{
+    "MonoBehaviour": {
+        "m_Enabled": true,
+        "m_EditorHideFlags": 0,
+        "m_Name": "",
+        "m_EditorClassIdentifier": "",
+        "ToolbarIndex": 0,
+        "m_iOSNotificationSettingsValues": {
+            "m_Keys": [
+                "UnityNotificationRequestAuthorizationOnAppLaunch",
+                "UnityNotificationDefaultAuthorizationOptions",
+                "UnityAddRemoteNotificationCapability",
+                "UnityNotificationRequestAuthorizationForRemoteNotificationsOnAppLaunch",
+                "UnityRemoteNotificationForegroundPresentationOptions",
+                "UnityUseAPSReleaseEnvironment",
+                "UnityUseLocationNotificationTrigger"
+            ],
+            "m_Values": [
+                "True",
+                "7",
+                "False",
+                "False",
+                "-1",
+                "False",
+                "False"
+            ]
+        },
+        "m_AndroidNotificationSettingsValues": {
+            "m_Keys": [
+                "UnityNotificationAndroidRescheduleOnDeviceRestart",
+                "UnityNotificationAndroidUseCustomActivity",
+                "UnityNotificationAndroidCustomActivityString"
+            ],
+            "m_Values": [
+                "True",
+                "False",
+                "com.unity3d.player.UnityPlayerActivity"
+            ]
+        },
+        "DrawableResources": [
+            {
+                "Id": "icon_0",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "1c227df716a074828bef4f585c9b7448",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_1",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "381554ada5ce84cc8a193d2903858e87",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_2",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "ada918d3fae6247409ed6f1ad6a5e9c3",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_3",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "84041c7826cd9447f938d5a4d1d2e57d",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_4",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "1cca10de17b414124bd1c81aaf0de6ba",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_5",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "a117b49c6a7d34ab6a360d06c3b0c779",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_6",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "9703811512722486c94c36a7b5b581fd",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_7",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "ce87f1cf2b279482794ac726a40e8f71",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_8",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "71aa778bdb72a4a57a8dc5f768dc7776",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_9",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "7d3e17ec165784901ae230b1836a242c",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_10",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "c41fde215f7bb4232a1e64aa5f124487",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_11",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "0196c2d50012a4a94a611befe1a79f21",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_12",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "454438c2558c94c83b5b4ed59c255701",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_13",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "6ce691477fcf24e9781e73296aea7e5c",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_14",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "a604513e536134b128b9277effaf7851",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_15",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "179d0b436a22d451da915a901e5fc5e7",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_16",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "c32aa8103f714415481ad156e8ae6cd3",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_17",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "931b21a4955674a979e93ebd69253e0a",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_18",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "daf3026d221af46098dd9fb848dacbb5",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_19",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "90b689a7621a44eafa6ae3fc23f87803",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_20",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "eadfca52124e04eb6963fe3f85a6f62f",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_21",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "0cad899d47aa3445796d744e498f019b",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_22",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "412dc46aa3ed44d4f9e79101939a8551",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_23",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "324839217c1d54474a31589cb824a76f",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_24",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "b6d638a2a732349fe9f857ca1d03621d",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_25",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "91f0b1ba0171145db98b5196a24520b1",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_26",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "b93cb1fd1034a4deea3aa7488ee19c3b",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_27",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "2b816591946e043bca31471bf49ee347",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_28",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "91c494663a57444bb991b03a776cb41e",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_29",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "00d881aebe6f343c2b1bbd773709d22e",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_30",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "96bba9ba450114fe19e6649551ddaf94",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_31",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "c450099471290463dad811d306dfce8f",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_32",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "60bcbd21099334825b0fdd7b09f54f55",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_33",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "287b0c49ef02d4a46981f08f4f92afb1",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_34",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "6846c1f9f61924f2a9ea6c1143be3f72",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_35",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "4d3226b1791bc42b4928e59fa1575bd5",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_36",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "20632f768f60043d0a32a638fbd03365",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_37",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "5380ad1b57175447e81d1306ff546870",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_38",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "27f018ddcf0074037b373c45509f29ee",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_39",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "3d3b49d06da6243b3b9e13c99d5eb2b3",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_40",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "8709ca39ab5bd4157a633c8cec0d88a6",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_41",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "2116beca777e7445cbbcf7095e3393ba",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_42",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "d682b9a40d01d43c8b4efe2d57db42d7",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_43",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "36a7b353e96004c0a8d5e7bb356e6bf7",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_44",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "5ad2d1c2a7eac46c3a09ea5d42554b0e",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_45",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "2501b5ee2a4cb480797eb3584471f0f9",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_46",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "ebdacea3c9b0a4229bf34e5025e1f50c",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_47",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "03bd765bd99af4ab98a6944ec086b4d4",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_48",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "153fb662f22e14a6888093089450a4ed",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_49",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "31988e51f69c74ac4a40b060db05b5ff",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_50",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "6d0b665c167004acaa1b4be47662b7b3",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_51",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "31988e51f69c74ac4a40b060db05b5ff",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_52",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "cd75136d3155a47a98c9b262feb51357",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_53",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "691279978f0df42fd83b5fa07101052f",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_54",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "ff2b483570a59403d83c587535d818cb",
+                    "type": 3
+                }
+            },
+            {
+                "Id": "icon_55",
+                "Type": 1,
+                "Asset": {
+                    "fileID": 2800000,
+                    "guid": "a4c9f81ccf9984e0fad0158fe6480d06",
+                    "type": 3
+                }
+            }
+        ]
+    }
+}

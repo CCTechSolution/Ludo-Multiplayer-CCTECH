@@ -1,0 +1,211 @@
+{
+  "SocialItem": [
+    {
+      "ItemTime": "LeaderBard",
+      "Name": "High Scores",
+      "Description": "Score",
+      "ItemType": "Score",
+      "Value": 0,
+      "RewardType": "NA",
+      "RewardCount": 0
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Ludo Starter",
+      "Description": "Earn 50 Score",
+      "ItemType": "Score",
+      "Value": 50,
+      "RewardType": "DiceUnlock",
+      "RewardCount": 1
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Facebook Champ",
+      "Description": "Link with facebook",
+      "ItemType": "LinkFb",
+      "Value": 1,
+      "RewardType": "Coins",
+      "RewardCount": 10
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Boards Governor",
+      "Description": "Unlock all Boards",
+      "ItemType": "UnlockBoards",
+      "Value": 1,
+      "RewardType": "Coins",
+      "RewardCount": 20
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Dice Possessor",
+      "Description": "Unlock All Dices",
+      "ItemType": "UnlockDices",
+      "Value": 1,
+      "RewardType": "Coins",
+      "RewardCount": 15
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "First Blood",
+      "Description": "Kill Opponent Block",
+      "ItemType": "Kill",
+      "Value": 1,
+      "RewardType": "Coins",
+      "RewardCount": 10
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Spin Leisure",
+      "Description": "Spinner",
+      "ItemType": "Spin",
+      "Value": 1,
+      "RewardType": "Coins",
+      "RewardCount": 5
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "First conquest",
+      "Description": "Win first match",
+      "ItemType": "WinMatch",
+      "Value": 1,
+      "RewardType": "Coins",
+      "RewardCount": 30
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Private Ruler",
+      "Description": "Win private match",
+      "ItemType": "WinPvtMatch",
+      "Value": 1,
+      "RewardType": "Coins",
+      "RewardCount": 20
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Coins Grabber",
+      "Description": "Watch rewarded ad",
+      "ItemType": "WatchAd",
+      "Value": 1,
+      "RewardType": "Coins",
+      "RewardCount": 10
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Fortuner King",
+      "Description": "Double Sixer",
+      "ItemType": "SixOnDice",
+      "Value": 1,
+      "RewardType": "Coins",
+      "RewardCount": 20
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Themes Emperor",
+      "Description": "Unlock all themes",
+      "ItemType": "UnlockTheme",
+      "Value": 1,
+      "RewardType": "Coins",
+      "RewardCount": 30
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "King of Four",
+      "Description": "Win 4 player match",
+      "ItemType": "WinInFour",
+      "Value": 1,
+      "RewardType": "Coins",
+      "RewardCount": 15
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Coin Destroyer",
+      "Description": "Kill 10 Opponent Blocks",
+      "ItemType": "Kill",
+      "Value": 10,
+      "RewardType": "Coins",
+      "RewardCount": 40
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Snap up King",
+      "Description": "Buy something from store",
+      "ItemType": "Buy",
+      "Value": 1,
+      "RewardType": "Coins",
+      "RewardCount": 10
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Smasher",
+      "Description": "Win 5 games",
+      "ItemType": "WinMatch",
+      "Value": 5,
+      "RewardType": "Coins",
+      "RewardCount": 20
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Ludo Prince",
+      "Description": "Win 10 games ",
+      "ItemType": "WinMatch",
+      "Value": 10,
+      "RewardType": "Coins",
+      "RewardCount": 40
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Destroyer King",
+      "Description": "Beat 30 players",
+      "ItemType": "WinMatch",
+      "Value": 30,
+      "RewardType": "Coins",
+      "RewardCount": 50
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Coins Prince",
+      "Description": "Get 50 coins",
+      "ItemType": "Coins",
+      "Value": 50,
+      "RewardType": "BoardUnlock",
+      "RewardCount": 2
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Ludo Bomber",
+      "Description": "Get 100 coins",
+      "ItemType": "Coins",
+      "Value": 100,
+      "RewardType": "ThemeUnlock",
+      "RewardCount": 3
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Ludo Emperor",
+      "Description": "Win 50 Matches",
+      "ItemType": "WinMatch",
+      "Value": 50,
+      "RewardType": "Coins",
+      "RewardCount": 55
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Coin Emperor",
+      "Description": "Get 200 coins",
+      "ItemType": "Coins",
+      "Value": 200,
+      "RewardType": "ThemeUnlock",
+      "RewardCount": 4
+    },
+    {
+      "ItemTime": "Achievement",
+      "Name": "Head of Ludo",
+      "Description": "Win 80 Matches",
+      "ItemType": "WinMatch",
+      "Value": 80,
+      "RewardType": "Coins",
+      "RewardCount": 60
+    }
+  ]
+}

@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 085287e04ad364dedae2385343c14436
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7004169878177279979
+    second: Boxing Sprite Sheets 1024_0
+  - first:
+      213: 7288097197788537214
+    second: Boxing Sprite Sheets 1024_1
+  - first:
+      213: -1798289493624273803
+    second: Boxing Sprite Sheets 1024_2
+  - first:
+      213: 7253754584196420960
+    second: Boxing Sprite Sheets 1024_3
+  - first:
+      213: -6456723438368866335
+    second: Boxing Sprite Sheets 1024_4
+  - first:
+      213: 3146704774610340180
+    second: Boxing Sprite Sheets 1024_5
+  - first:
+      213: -407513940831484348
+    second: Boxing Sprite Sheets 1024_6
+  - first:
+      213: 257974159185047477
+    second: Boxing Sprite Sheets 1024_7
+  - first:
+      213: -8355857483542354152
+    second: Boxing Sprite Sheets 1024_8
+  - first:
+      213: 4654556705367977335
+    second: Boxing Sprite Sheets 1024_9
+  - first:
+      213: -4773177520016359128
+    second: Boxing Sprite Sheets 1024_10
+  - first:
+      213: -8641914490465131153
+    second: Boxing Sprite Sheets 1024_11
+  - first:
+      213: -3588713323637089796
+    second: Boxing Sprite Sheets 1024_12
+  - first:
+      213: -6501560010377121084
+    second: Boxing Sprite Sheets 1024_13
+  - first:
+      213: 1907805795413939423
+    second: Boxing Sprite Sheets 1024_14
+  - first:
+      213: 2111411907690940604
+    second: Boxing Sprite Sheets 1024_15
+  - first:
+      213: -3522469691145815152
+    second: Boxing Sprite Sheets 1024_16
+  - first:
+      213: 1978108008334774806
+    second: Boxing Sprite Sheets 1024_17
+  - first:
+      213: 4208147242623587291
+    second: Boxing Sprite Sheets 1024_18
+  - first:
+      213: -5054821784454614389
+    second: Boxing Sprite Sheets 1024_19
+  - first:
+      213: 6890453161671963051
+    second: Boxing Sprite Sheets 1024_20
+  - first:
+      213: 6275063891427382624
+    second: Boxing Sprite Sheets 1024_21
+  - first:
+      213: 7837581185276565921
+    second: Boxing Sprite Sheets 1024_22
+  - first:
+      213: 4114236138166933367
+    second: Boxing Sprite Sheets 1024_23
+  - first:
+      213: 4051986405321035794
+    second: Boxing Sprite Sheets 1024_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1087
+        width: 130
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51090c00b903cce90800000000000000
+      internalID: -7004169878177279979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1073
+        width: 160
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71a4b299c5842560800000000000000
+      internalID: 7288097197788537214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_2
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1068
+        width: 176
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5744539bb313b07e0800000000000000
+      internalID: -1798289493624273803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_3
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1069
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06593eebc538aa460800000000000000
+      internalID: 7253754584196420960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_4
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1068
+        width: 184
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efb513fd3c1566a0800000000000000
+      internalID: -6456723438368866335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 802
+        width: 193
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459ccaf02575bab20800000000000000
+      internalID: 3146704774610340180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 800
+        width: 184
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44648bbda38385af0800000000000000
+      internalID: -407513940831484348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_7
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 803
+        width: 198
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf64778122849300800000000000000
+      internalID: 257974159185047477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_8
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 788
+        width: 224
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8172ba3d3e70a0c80800000000000000
+      internalID: -8355857483542354152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_9
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 778
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dee52a9ae489040800000000000000
+      internalID: 4654556705367977335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 535
+        width: 222
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8218b8db55442cdb0800000000000000
+      internalID: -4773177520016359128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_11
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 515
+        width: 234
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f656688ce80c11880800000000000000
+      internalID: -8641914490465131153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_12
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 523
+        width: 236
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf956e7fe34523ec0800000000000000
+      internalID: -3588713323637089796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_13
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 534
+        width: 237
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c236970e91d5c5a0800000000000000
+      internalID: -6501560010377121084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_14
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 525
+        width: 222
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd454105343e97a10800000000000000
+      internalID: 1907805795413939423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 267
+        width: 235
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8c27c71fd3d4d10800000000000000
+      internalID: 2111411907690940604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 272
+        width: 225
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b7c2f8a7cad1fc0800000000000000
+      internalID: -3522469691145815152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_17
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 287
+        width: 200
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612562cc0c6a37b10800000000000000
+      internalID: 1978108008334774806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_18
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 298
+        width: 181
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd35e171f97566a30800000000000000
+      internalID: 4208147242623587291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_19
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 288
+        width: 193
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b823dae5e5aa9d9b0800000000000000
+      internalID: -5054821784454614389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_20
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 38
+        width: 185
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1bce2b4aecf9f50800000000000000
+      internalID: 6890453161671963051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_21
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 46
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065d86fcc51851750800000000000000
+      internalID: 6275063891427382624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_22
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 42
+        width: 176
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9d1be009ea4cc60800000000000000
+      internalID: 7837581185276565921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_23
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 53
+        width: 160
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777d38138f3b81930800000000000000
+      internalID: 4114236138166933367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxing Sprite Sheets 1024_24
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 60
+        width: 130
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2105fd3da2c8b3830800000000000000
+      internalID: 4051986405321035794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 36babb8d6b6394b3ea97aa691b0b6be9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boxing Sprite Sheets 1024_0: -7004169878177279979
+      Boxing Sprite Sheets 1024_1: 7288097197788537214
+      Boxing Sprite Sheets 1024_10: -4773177520016359128
+      Boxing Sprite Sheets 1024_11: -8641914490465131153
+      Boxing Sprite Sheets 1024_12: -3588713323637089796
+      Boxing Sprite Sheets 1024_13: -6501560010377121084
+      Boxing Sprite Sheets 1024_14: 1907805795413939423
+      Boxing Sprite Sheets 1024_15: 2111411907690940604
+      Boxing Sprite Sheets 1024_16: -3522469691145815152
+      Boxing Sprite Sheets 1024_17: 1978108008334774806
+      Boxing Sprite Sheets 1024_18: 4208147242623587291
+      Boxing Sprite Sheets 1024_19: -5054821784454614389
+      Boxing Sprite Sheets 1024_2: -1798289493624273803
+      Boxing Sprite Sheets 1024_20: 6890453161671963051
+      Boxing Sprite Sheets 1024_21: 6275063891427382624
+      Boxing Sprite Sheets 1024_22: 7837581185276565921
+      Boxing Sprite Sheets 1024_23: 4114236138166933367
+      Boxing Sprite Sheets 1024_24: 4051986405321035794
+      Boxing Sprite Sheets 1024_3: 7253754584196420960
+      Boxing Sprite Sheets 1024_4: -6456723438368866335
+      Boxing Sprite Sheets 1024_5: 3146704774610340180
+      Boxing Sprite Sheets 1024_6: -407513940831484348
+      Boxing Sprite Sheets 1024_7: 257974159185047477
+      Boxing Sprite Sheets 1024_8: -8355857483542354152
+      Boxing Sprite Sheets 1024_9: 4654556705367977335
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

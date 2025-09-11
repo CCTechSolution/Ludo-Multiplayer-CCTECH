@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "652773376267",
+    "project_id": "ludo-online-board-game",
+    "storage_bucket": "ludo-online-board-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652773376267:android:b2b1fe1fa979f815cd620e",
+        "android_client_info": {
+          "package_name": "ludo.online.board.game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTrPh3G0Q364akOhDj6Fjjph0c3osNu7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      },
+      "admob_app_id": "ca-app-pub-3497625833392567~5301277883"
+    }
+  ],
+  "configuration_version": "1"
+}
