@@ -1,6 +1,7 @@
 Ludo Online Board Game
 
-Technical Product Lead & Partner: Hafiz Saad Khawar Company: CC Tech Solution (Crystal Continental Trading Ltd)
+Technical Product Lead & Partner: Hafiz Saad Khawar 
+Company: CC Tech Solution (Crystal Continental Trading Ltd)
 
 Overview
 Ludo Online Board Game is a Unity-based multiplayer board game optimized for Android devices. The game combines classic Ludo gameplay with modern UI/UX, multiplayer mechanics, and monetization features.
